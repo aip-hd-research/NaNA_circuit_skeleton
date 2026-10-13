@@ -47,42 +47,6 @@ results/                                # Experiment outputs
 
 Additional research and analysis directories may be present; the directories above contain the implementations invoked by the documented entry points.
 
-## Supported models
-
-The code covers the following 29 model checkpoints:
-
-```text
-meta-llama/Llama-2-7b-hf
-mistralai/Mistral-7B-v0.3
-mistralai/Mistral-7B-v0.1
-deepseek-ai/deepseek-llm-7b-base
-google/gemma-2-9b-it
-codellama/CodeLlama-7b-hf
-deepseek-ai/deepseek-coder-6.7b-base
-openai-community/gpt2
-microsoft/Phi-3-mini-4k-instruct
-google/gemma-3-1b-it
-meta-llama/Llama-3.2-1B
-Qwen/Qwen3-0.6B
-Qwen/Qwen2.5-1.5B
-bigcode/starcoder2-3b
-microsoft/biogpt
-microsoft/BioGPT-Large
-liyinghong/BioQwen-0.5B
-liyinghong/BioQwen-1.8B
-nferruz/ProtGPT2
-AI4PD/ZymCTRL
-hugohrban/progen2-small
-hugohrban/progen2-medium
-ncfrey/ChemGPT-4.7M
-ncfrey/ChemGPT-19M
-ncfrey/ChemGPT-1.2B
-entropy/gpt2_zinc_87m
-ChemFM/ChemFM-1B
-jonghyunlee/MolGPT_pretrained-by-ZINC15
-jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15
-```
-
 ## Environment and installation
 
 The development environment uses Red Hat Enterprise Linux 9.6, Python 3.11, and Bash. Inspected package versions include PyTorch 2.12.1+cu126, Transformers 4.57.6, NumPy 1.26.4, and SciPy 1.14.1. The Python dependencies are specified in `requirements.txt`.
@@ -158,3 +122,40 @@ Invokes `python -m circuit_skeleton.skeleton_analysis_residual.run` for zero and
 ## Outputs
 
 Experiment results are written as JSON files under `results/`. The output includes target-token prediction statistics, such as rank, logit, and probability. The MLP experiments also use `result_summary.py` for aggregate summaries. Output filenames and counts depend on the settings in the corresponding scripts.
+
+
+## Supported models
+
+The code supports the following 29 Transformer models:
+
+```text
+meta-llama/Llama-2-7b-hf
+mistralai/Mistral-7B-v0.3
+mistralai/Mistral-7B-v0.1
+deepseek-ai/deepseek-llm-7b-base
+google/gemma-2-9b-it
+codellama/CodeLlama-7b-hf
+deepseek-ai/deepseek-coder-6.7b-base
+openai-community/gpt2
+microsoft/Phi-3-mini-4k-instruct
+google/gemma-3-1b-it
+meta-llama/Llama-3.2-1B
+Qwen/Qwen3-0.6B
+Qwen/Qwen2.5-1.5B
+bigcode/starcoder2-3b
+microsoft/biogpt
+microsoft/BioGPT-Large
+liyinghong/BioQwen-0.5B
+liyinghong/BioQwen-1.8B
+nferruz/ProtGPT2
+AI4PD/ZymCTRL
+hugohrban/progen2-small
+hugohrban/progen2-medium
+ncfrey/ChemGPT-4.7M
+ncfrey/ChemGPT-19M
+ncfrey/ChemGPT-1.2B
+entropy/gpt2_zinc_87m
+ChemFM/ChemFM-1B
+jonghyunlee/MolGPT_pretrained-by-ZINC15
+jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15
+```
