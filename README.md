@@ -4,7 +4,7 @@ This repository provides the source code and example data for the static MLP, dy
 
 An interactive demonstration is available in [`Demo/demo.ipynb`](Demo/demo.ipynb).
 
-## Repository structure
+## 🔹 Repository structure
 
 ```text
 NaNA_circuit_skeleton/
@@ -47,7 +47,7 @@ results/                                # Experiment outputs
 
 Additional research and analysis directories may be present; the directories above contain the implementations invoked by the documented entry points.
 
-## Environment and installation
+## 🔹 Environment and installation
 
 The development environment uses Red Hat Enterprise Linux 9.6, Python 3.11, and Bash. Inspected package versions include PyTorch 2.12.1+cu126, Transformers 4.57.6, NumPy 1.26.4, and SciPy 1.14.1. The Python dependencies are specified in `requirements.txt`.
 
@@ -65,7 +65,7 @@ The experiments were run on NVIDIA H100 and A100 GPUs. These specific models are
 
 On first use, checkpoints are downloaded to `cache/model_cache/`. This requires Hugging Face access unless the models are already cached. Gated models may require authorization.
 
-## Interactive demo
+## 🔹 Interactive demo
 
 Start Jupyter from the repository root on a GPU node and open [`Demo/demo.ipynb`](Demo/demo.ipynb).  
 
@@ -77,7 +77,7 @@ The notebook contains separate cells for dependency installation, precomputation
 
 Each experiment reports progress and a concise result summary, and saves JSON outputs under `results/`. Save the notebook separately to retain its displayed cell outputs.
 
-## Command-line experiments
+## 🔹 Experiments
 
 The supplied scripts use `openai-community/gpt2` as an example configuration. Run `precompute.sh` if the required model caches are not already present. Cache generation processes the selected checkpoint.
 
@@ -121,12 +121,12 @@ bash run_residual.sh
 
 Invokes `python -m circuit_skeleton.skeleton_analysis_residual.run` for zero and scaling interventions on short-context prompts, using the precomputed residual cache. This runner excludes Gemma 2/3.
 
-## Outputs
+## 🔹 Outputs
 
 Experiment results are written as JSON files under `results/`. The output includes target-token prediction statistics, such as rank, logit, and probability. The MLP experiments also use `result_summary.py` for aggregate summaries. Output filenames and counts depend on the settings in the corresponding scripts.
 
 
-## Supported models
+## 🔹 Supported models
 
 The code supports the following 29 Transformer models:
 
