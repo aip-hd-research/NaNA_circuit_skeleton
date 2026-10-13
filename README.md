@@ -161,3 +161,7 @@ ChemFM/ChemFM-1B
 jonghyunlee/MolGPT_pretrained-by-ZINC15
 jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15
 ```
+
+## 🔹 License
+
+The original code in this repository is licensed under the Apache License, Version 2.0; see [LICENSE](LICENSE). The bundled `sae_training/geom_median` package retains its GNU GPLv3 license; see [its license](sae_training/geom_median/LICENSE).
