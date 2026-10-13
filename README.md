@@ -51,9 +51,11 @@ Additional research and analysis directories may be present; the directories abo
 
 The development environment uses Red Hat Enterprise Linux 9.6, Python 3.11, and Bash. Inspected package versions include PyTorch 2.12.1+cu126, Transformers 4.57.6, NumPy 1.26.4, and SciPy 1.14.1. The Python dependencies are specified in `requirements.txt`.
 
-From the repository root:
+Clone the repository and install its dependencies:
 
 ```bash
+git clone https://github.com/aip-hd-research/NaNA_circuit_skeleton.git
+cd NaNA_circuit_skeleton
 python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -162,6 +164,6 @@ jonghyunlee/MolGPT_pretrained-by-ZINC15
 jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15
 ```
 
-## 🔹 License
+## License
 
-The original code in this repository is licensed under the Apache License, Version 2.0; see [LICENSE](LICENSE). The bundled `sae_training/geom_median` package retains its GNU GPLv3 license; see [its license](sae_training/geom_median/LICENSE).
+This project's original code is covered under the **Apache 2.0 License**; see [LICENSE](LICENSE). The bundled `sae_training/geom_median` package retains its GNU GPLv3 license; see [its license](sae_training/geom_median/LICENSE).
