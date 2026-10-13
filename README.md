@@ -6,7 +6,7 @@
 - [Repository structure](#repository-structure)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
-- [Interactive demo](#interactive-demo)
+- [Demo](#demo)
 - [Experiments](#experiments)
 - [Outputs](#outputs)
 - [Supported models](#supported-models)
@@ -83,7 +83,7 @@ Installing the dependencies from scratch typically takes about one hour, dependi
 
 On first use, checkpoints are downloaded to `cache/model_cache/`. This requires Hugging Face access unless the models are already cached. Gated models may require authorization.
 
-## Interactive demo
+## Demo
 
 Start Jupyter from the repository root on a GPU node and open [`Demo/demo.ipynb`](Demo/demo.ipynb).  
 
@@ -99,7 +99,7 @@ Each experiment reports progress and a concise result summary, and saves JSON ou
 
 The supplied scripts use `openai-community/gpt2` as an example configuration. Run `precompute.sh` if the required model caches are not already present. Cache generation processes the selected checkpoint.
 
-### 1. Precomputation
+### Precomputation
 
 ```bash
 bash precompute.sh
@@ -107,7 +107,7 @@ bash precompute.sh
 
 Executes `pre_compute/precompute_within_ske.py` for MLP SVD pathways, `pre_compute/precompute_attention_ov.py` for attention OV pathways, and `pre_compute/precompute_residual/precompute.py` for residual coupling and activation caches. MLP and attention caches include `layer_*.pt` files.
 
-### 2. Static MLP circuits
+### Step 1: Static MLP circuits
 
 ```bash
 bash run_static.sh
@@ -115,7 +115,7 @@ bash run_static.sh
 
 Runs `scripts_ske_cir/run_static_ske_per_neuron.py` on the first 100 prompts in `dataset/skeleton_static/natural_language/short_10000samples.json`, with target token ` bird`.
 
-### 3. Dynamic MLP circuits
+### Step 2: Dynamic MLP circuits
 
 ```bash
 bash run_dynm_mlp.sh
@@ -123,7 +123,7 @@ bash run_dynm_mlp.sh
 
 Runs `scripts_ske_cir/run_skeleton_pred.py` using the prompt `Janell Hobson analysed the imagery presented in the` and target token ` report`.
 
-### 4. Attention and joint attention–MLP circuits
+### Step 3: Attention and joint attention–MLP circuits
 
 ```bash
 bash run_dynm_attn.sh
@@ -131,7 +131,7 @@ bash run_dynm_attn.sh
 
 Invokes `python -m attn_mlp_cir.run_dynamic` for `--type attn_and_mlp` and `--type attn`, using the configured prompt and target.
 
-### 5. Cross-layer residual circuits
+### Step 4: Cross-layer residual circuits
 
 ```bash
 bash run_residual.sh
