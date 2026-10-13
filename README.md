@@ -47,9 +47,13 @@ results/                                # Experiment outputs
 
 Additional research and analysis directories may be present; the directories above contain the implementations invoked by the documented entry points.
 
-## 🔹 Environment and installation
+## 🔹 Dependencies
 
 The development environment uses Red Hat Enterprise Linux 9.6, Python 3.11, and Bash. Inspected package versions include PyTorch 2.12.1+cu126, Transformers 4.57.6, NumPy 1.26.4, and SciPy 1.14.1. The Python dependencies are specified in `requirements.txt`.
+
+The experiments were run on NVIDIA H100 and A100 GPUs. These specific models are not required, but a CUDA-capable GPU is recommended, particularly for precomputation and larger checkpoints; memory requirements depend on the checkpoint and analysis. Scripts use GPU index 0 by default; set `GPU` to select another device or `PYTHON_BIN` to specify the Python interpreter.
+
+## 🔹 Installation
 
 Clone the repository and install its dependencies:
 
@@ -62,8 +66,6 @@ python -m pip install -r requirements.txt
 ```
 
 Installing the dependencies from scratch typically takes about one hour, depending on network speed and package caches. Once the model and precomputation caches are available, running the example data typically takes a few minutes; first-time downloads and precomputation take additional time.
-
-The experiments were run on NVIDIA H100 and A100 GPUs. These specific models are not required, but a CUDA-capable GPU is recommended, particularly for precomputation and larger checkpoints; memory requirements depend on the checkpoint and analysis. Scripts use GPU index 0 by default; set `GPU` to select another device or `PYTHON_BIN` to specify the Python interpreter.
 
 On first use, checkpoints are downloaded to `cache/model_cache/`. This requires Hugging Face access unless the models are already cached. Gated models may require authorization.
 
@@ -166,4 +168,4 @@ jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15
 
 ## License
 
-This project's original code is covered under the **Apache 2.0 License**; see [LICENSE](LICENSE). The bundled `sae_training/geom_median` package retains its GNU GPLv3 license; see [its license](sae_training/geom_median/LICENSE).
+This project's original code is covered under the **Apache 2.0 License**; see [LICENSE](LICENSE).
