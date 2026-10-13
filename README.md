@@ -49,7 +49,7 @@ Additional research and analysis directories may be present; the directories abo
 
 ## 🔹 Dependencies
 
-The development environment uses Red Hat Enterprise Linux 9.6, Python 3.11, and Bash. Inspected package versions include PyTorch 2.12.1+cu126, Transformers 4.57.6, NumPy 1.26.4, and SciPy 1.14.1. The Python dependencies are specified in `requirements.txt`.
+The development environment uses Linux, Python 3.11, and Bash. Inspected package versions include PyTorch 2.12.1+cu126, Transformers 4.57.6, NumPy 1.26.4, and SciPy 1.14.1. The Python dependencies are specified in `requirements.txt`.
 
 The experiments were run on NVIDIA H100 and A100 GPUs. These specific models are not required, but a CUDA-capable GPU is recommended, particularly for precomputation and larger checkpoints; memory requirements depend on the checkpoint and analysis. Scripts use GPU index 0 by default; set `GPU` to select another device or `PYTHON_BIN` to specify the Python interpreter.
 
