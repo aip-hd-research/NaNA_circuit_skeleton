@@ -59,6 +59,8 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
+Installing the dependencies from scratch typically takes about one hour, depending on network speed and package caches. Once the model and precomputation caches are available, running the example data typically takes a few minutes; first-time downloads and precomputation take additional time.
+
 The experiments were run on NVIDIA H100 and A100 GPUs. These specific models are not required, but a CUDA-capable GPU is recommended, particularly for precomputation and larger checkpoints; memory requirements depend on the checkpoint and analysis. Scripts use GPU index 0 by default; set `GPU` to select another device or `PYTHON_BIN` to specify the Python interpreter.
 
 On first use, checkpoints are downloaded to `cache/model_cache/`. This requires Hugging Face access unless the models are already cached. Gated models may require authorization.
