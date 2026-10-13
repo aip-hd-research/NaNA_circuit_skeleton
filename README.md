@@ -1,10 +1,24 @@
 # Transformer Anatomy: Opening the Black Box of Language Models
 
+## Contents
+
+- [Overview](#overview)
+- [Repository structure](#repository-structure)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Interactive demo](#interactive-demo)
+- [Experiments](#experiments)
+- [Outputs](#outputs)
+- [Supported models](#supported-models)
+- [License](#license)
+
+## Overview
+
 This repository provides the source code and example data for the static MLP, dynamic MLP, attention, joint attention–MLP, and cross-layer residual circuit analyses in *Transformer Anatomy*. The supplied scripts demonstrate these analyses using GPT-2; other listed checkpoints can be selected with corresponding model configurations and data.
 
 An interactive demonstration is available in [`Demo/demo.ipynb`](Demo/demo.ipynb).
 
-## 🔹 Repository structure
+## Repository structure
 
 ```text
 NaNA_circuit_skeleton/
@@ -47,13 +61,13 @@ results/                                # Experiment outputs
 
 Additional research and analysis directories may be present; the directories above contain the implementations invoked by the documented entry points.
 
-## 🔹 Dependencies
+## Dependencies
 
 The development environment uses Linux, Python 3.11, and Bash. Inspected package versions include PyTorch 2.12.1+cu126, Transformers 4.57.6, NumPy 1.26.4, and SciPy 1.14.1. The Python dependencies are specified in `requirements.txt`.
 
 The experiments were run on NVIDIA H100 and A100 GPUs. These specific models are not required, but a CUDA-capable GPU is recommended, particularly for precomputation and larger checkpoints; memory requirements depend on the checkpoint and analysis. Scripts use GPU index 0 by default; set `GPU` to select another device or `PYTHON_BIN` to specify the Python interpreter.
 
-## 🔹 Installation
+## Installation
 
 Clone the repository and install its dependencies:
 
@@ -69,7 +83,7 @@ Installing the dependencies from scratch typically takes about one hour, dependi
 
 On first use, checkpoints are downloaded to `cache/model_cache/`. This requires Hugging Face access unless the models are already cached. Gated models may require authorization.
 
-## 🔹 Interactive demo
+## Interactive demo
 
 Start Jupyter from the repository root on a GPU node and open [`Demo/demo.ipynb`](Demo/demo.ipynb).  
 
@@ -81,7 +95,7 @@ The notebook contains separate cells for dependency installation, precomputation
 
 Each experiment reports progress and a concise result summary, and saves JSON outputs under `results/`. Save the notebook separately to retain its displayed cell outputs.
 
-## 🔹 Experiments
+## Experiments
 
 The supplied scripts use `openai-community/gpt2` as an example configuration. Run `precompute.sh` if the required model caches are not already present. Cache generation processes the selected checkpoint.
 
@@ -125,12 +139,12 @@ bash run_residual.sh
 
 Invokes `python -m circuit_skeleton.skeleton_analysis_residual.run` for zero and scaling interventions on short-context prompts, using the precomputed residual cache. This runner excludes Gemma 2/3.
 
-## 🔹 Outputs
+## Outputs
 
 Experiment results are written as JSON files under `results/`. These files include target-token prediction statistics such as rank, logit, and probability. The MLP experiments also use `result_summary.py` for aggregate summaries. Output filenames and counts depend on the settings in the corresponding scripts.
 
 
-## 🔹 Supported models
+## Supported models
 
 The code supports the following 29 Transformer models:
 
