@@ -1,0 +1,2741 @@
+{
+  "domain": "programming_language",
+  "models": [
+    "bigcode/starcoder2-3b",
+    "codellama/CodeLlama-7b-hf",
+    "deepseek-ai/deepseek-coder-6.7b-base"
+  ],
+  "categories": {
+    "keyword": [
+      " function",
+      " class",
+      " return",
+      " import",
+      " module",
+      " variable",
+      " loop",
+      " array",
+      " object",
+      " method",
+      " boolean",
+      " integer",
+      " string",
+      " pointer",
+      " async",
+      " yield",
+      " struct",
+      " interface",
+      " define",
+      " const"
+    ],
+    "identifier": [
+      " error",
+      " value",
+      " data",
+      " result",
+      " index",
+      " count",
+      " size",
+      " length",
+      " type",
+      " name",
+      " path",
+      " key",
+      " file",
+      " list",
+      " node",
+      " tree",
+      " stack",
+      " queue",
+      " cache",
+      " buffer"
+    ],
+    "operation": [
+      " read",
+      " write",
+      " parse",
+      " sort",
+      " search",
+      " filter",
+      " merge",
+      " split",
+      " encode",
+      " format",
+      " convert",
+      " compute",
+      " execute",
+      " compile",
+      " debug",
+      " test",
+      " deploy",
+      " optimize",
+      " validate",
+      " hash"
+    ],
+    "data_structure": [
+      " graph",
+      " heap",
+      " matrix",
+      " tensor",
+      " vector",
+      " map",
+      " set",
+      " dict",
+      " table",
+      " row",
+      " column",
+      " record",
+      " field",
+      " block",
+      " segment",
+      " stream",
+      " pipeline",
+      " schema",
+      " index",
+      " cluster"
+    ],
+    "network": [
+      " server",
+      " client",
+      " request",
+      " response",
+      " socket",
+      " port",
+      " host",
+      " domain",
+      " proxy",
+      " protocol",
+      " packet",
+      " route",
+      " gateway",
+      " session",
+      " cookie",
+      " header",
+      " endpoint",
+      " timeout",
+      " payload",
+      " encryption"
+    ],
+    "operator": [
+      " +",
+      " -",
+      " *",
+      " /",
+      " %",
+      " =",
+      " <",
+      " >",
+      " !",
+      " &",
+      " |",
+      " ^",
+      " ~",
+      " ==",
+      " >=",
+      " **",
+      " //",
+      " ::",
+      " &&",
+      " ||"
+    ],
+    "digit": [
+      " 0",
+      " 1",
+      " 2",
+      " 3",
+      " 4",
+      " 5",
+      " 6",
+      " 7",
+      " 8",
+      " 9"
+    ]
+  },
+  "tokens": [
+    " !",
+    " %",
+    " &",
+    " &&",
+    " *",
+    " **",
+    " +",
+    " -",
+    " /",
+    " //",
+    " 0",
+    " 1",
+    " 2",
+    " 3",
+    " 4",
+    " 5",
+    " 6",
+    " 7",
+    " 8",
+    " 9",
+    " ::",
+    " <",
+    " =",
+    " ==",
+    " >",
+    " >=",
+    " ^",
+    " array",
+    " async",
+    " block",
+    " boolean",
+    " buffer",
+    " cache",
+    " class",
+    " client",
+    " cluster",
+    " column",
+    " compile",
+    " compute",
+    " const",
+    " convert",
+    " cookie",
+    " count",
+    " data",
+    " debug",
+    " define",
+    " deploy",
+    " dict",
+    " domain",
+    " encode",
+    " encryption",
+    " endpoint",
+    " error",
+    " execute",
+    " field",
+    " file",
+    " filter",
+    " format",
+    " function",
+    " gateway",
+    " graph",
+    " hash",
+    " header",
+    " heap",
+    " host",
+    " import",
+    " index",
+    " integer",
+    " interface",
+    " key",
+    " length",
+    " list",
+    " loop",
+    " map",
+    " matrix",
+    " merge",
+    " method",
+    " module",
+    " name",
+    " node",
+    " object",
+    " optimize",
+    " packet",
+    " parse",
+    " path",
+    " payload",
+    " pipeline",
+    " pointer",
+    " port",
+    " protocol",
+    " proxy",
+    " queue",
+    " read",
+    " record",
+    " request",
+    " response",
+    " result",
+    " return",
+    " route",
+    " row",
+    " schema",
+    " search",
+    " segment",
+    " server",
+    " session",
+    " set",
+    " size",
+    " socket",
+    " sort",
+    " split",
+    " stack",
+    " stream",
+    " string",
+    " struct",
+    " table",
+    " tensor",
+    " test",
+    " timeout",
+    " tree",
+    " type",
+    " validate",
+    " value",
+    " variable",
+    " vector",
+    " write",
+    " yield",
+    " |",
+    " ||",
+    " ~"
+  ],
+  "n_tokens": 129,
+  "token_model_coverage": {
+    " function": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " class": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " return": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " import": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " module": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " variable": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " loop": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " array": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " object": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " method": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " boolean": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " integer": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " string": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " pointer": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " async": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " yield": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " struct": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " interface": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " define": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " const": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " error": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " value": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " data": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " result": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " index": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " count": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " size": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " length": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " type": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " name": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " path": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " key": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " file": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " list": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " node": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " tree": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " stack": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " queue": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " cache": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " buffer": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " read": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " write": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " parse": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " sort": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " search": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " filter": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " merge": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " split": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " encode": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " format": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " convert": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " compute": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " execute": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " compile": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " debug": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " test": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " deploy": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " optimize": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " validate": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " hash": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " graph": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " heap": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " matrix": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " tensor": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " vector": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " map": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " set": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " dict": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " table": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " row": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " column": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " record": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " field": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " block": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " segment": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " stream": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " pipeline": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " schema": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " cluster": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " server": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " client": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " request": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " response": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " socket": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " port": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " host": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " domain": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " proxy": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " protocol": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " packet": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " route": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " gateway": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " session": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " cookie": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " header": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " endpoint": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " timeout": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " payload": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " encryption": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " +": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " -": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " *": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " /": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " %": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " =": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " <": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " >": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " !": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " &": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " |": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " ^": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " ~": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " ==": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " >=": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " **": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " //": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " ::": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " &&": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " ||": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " 0": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " 1": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " 2": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " 3": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " 4": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " 5": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " 6": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " 7": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " 8": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ],
+    " 9": [
+      "bigcode/starcoder2-3b",
+      "codellama/CodeLlama-7b-hf",
+      "deepseek-ai/deepseek-coder-6.7b-base"
+    ]
+  },
+  "token_ids": {
+    " function": {
+      "bigcode/starcoder2-3b": {
+        "id": 686,
+        "vocab_token": "Ġfunction"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 740,
+        "vocab_token": "▁function"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1155,
+        "vocab_token": "Ġfunction"
+      }
+    },
+    " class": {
+      "bigcode/starcoder2-3b": {
+        "id": 462,
+        "vocab_token": "Ġclass"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 770,
+        "vocab_token": "▁class"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 757,
+        "vocab_token": "Ġclass"
+      }
+    },
+    " return": {
+      "bigcode/starcoder2-3b": {
+        "id": 461,
+        "vocab_token": "Ġreturn"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 736,
+        "vocab_token": "▁return"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 967,
+        "vocab_token": "Ġreturn"
+      }
+    },
+    " import": {
+      "bigcode/starcoder2-3b": {
+        "id": 1220,
+        "vocab_token": "Ġimport"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1053,
+        "vocab_token": "▁import"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1659,
+        "vocab_token": "Ġimport"
+      }
+    },
+    " module": {
+      "bigcode/starcoder2-3b": {
+        "id": 2313,
+        "vocab_token": "Ġmodule"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 3883,
+        "vocab_token": "▁module"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 6230,
+        "vocab_token": "Ġmodule"
+      }
+    },
+    " variable": {
+      "bigcode/starcoder2-3b": {
+        "id": 2702,
+        "vocab_token": "Ġvariable"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2286,
+        "vocab_token": "▁variable"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 5578,
+        "vocab_token": "Ġvariable"
+      }
+    },
+    " loop": {
+      "bigcode/starcoder2-3b": {
+        "id": 5276,
+        "vocab_token": "Ġloop"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2425,
+        "vocab_token": "▁loop"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 7845,
+        "vocab_token": "Ġloop"
+      }
+    },
+    " array": {
+      "bigcode/starcoder2-3b": {
+        "id": 1437,
+        "vocab_token": "Ġarray"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1409,
+        "vocab_token": "▁array"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3857,
+        "vocab_token": "Ġarray"
+      }
+    },
+    " object": {
+      "bigcode/starcoder2-3b": {
+        "id": 1319,
+        "vocab_token": "Ġobject"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1203,
+        "vocab_token": "▁object"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 2148,
+        "vocab_token": "Ġobject"
+      }
+    },
+    " method": {
+      "bigcode/starcoder2-3b": {
+        "id": 1431,
+        "vocab_token": "Ġmethod"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1158,
+        "vocab_token": "▁method"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 2040,
+        "vocab_token": "Ġmethod"
+      }
+    },
+    " boolean": {
+      "bigcode/starcoder2-3b": {
+        "id": 1922,
+        "vocab_token": "Ġboolean"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 7223,
+        "vocab_token": "▁boolean"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 7248,
+        "vocab_token": "Ġboolean"
+      }
+    },
+    " integer": {
+      "bigcode/starcoder2-3b": {
+        "id": 5009,
+        "vocab_token": "Ġinteger"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 6043,
+        "vocab_token": "▁integer"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 10878,
+        "vocab_token": "Ġinteger"
+      }
+    },
+    " string": {
+      "bigcode/starcoder2-3b": {
+        "id": 821,
+        "vocab_token": "Ġstring"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1347,
+        "vocab_token": "▁string"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 2649,
+        "vocab_token": "Ġstring"
+      }
+    },
+    " pointer": {
+      "bigcode/starcoder2-3b": {
+        "id": 4964,
+        "vocab_token": "Ġpointer"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 4879,
+        "vocab_token": "▁pointer"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 14776,
+        "vocab_token": "Ġpointer"
+      }
+    },
+    " async": {
+      "bigcode/starcoder2-3b": {
+        "id": 2513,
+        "vocab_token": "Ġasync"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 7465,
+        "vocab_token": "▁async"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 18065,
+        "vocab_token": "Ġasync"
+      }
+    },
+    " yield": {
+      "bigcode/starcoder2-3b": {
+        "id": 6785,
+        "vocab_token": "Ġyield"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 7709,
+        "vocab_token": "▁yield"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 6916,
+        "vocab_token": "Ġyield"
+      }
+    },
+    " struct": {
+      "bigcode/starcoder2-3b": {
+        "id": 1689,
+        "vocab_token": "Ġstruct"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2281,
+        "vocab_token": "▁struct"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 2784,
+        "vocab_token": "Ġstruct"
+      }
+    },
+    " interface": {
+      "bigcode/starcoder2-3b": {
+        "id": 2586,
+        "vocab_token": "Ġinterface"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 5067,
+        "vocab_token": "▁interface"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 6313,
+        "vocab_token": "Ġinterface"
+      }
+    },
+    " define": {
+      "bigcode/starcoder2-3b": {
+        "id": 5623,
+        "vocab_token": "Ġdefine"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 4529,
+        "vocab_token": "▁define"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 5928,
+        "vocab_token": "Ġdefine"
+      }
+    },
+    " const": {
+      "bigcode/starcoder2-3b": {
+        "id": 679,
+        "vocab_token": "Ġconst"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1040,
+        "vocab_token": "▁const"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1133,
+        "vocab_token": "Ġconst"
+      }
+    },
+    " error": {
+      "bigcode/starcoder2-3b": {
+        "id": 1067,
+        "vocab_token": "Ġerror"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1059,
+        "vocab_token": "▁error"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 2179,
+        "vocab_token": "Ġerror"
+      }
+    },
+    " value": {
+      "bigcode/starcoder2-3b": {
+        "id": 804,
+        "vocab_token": "Ġvalue"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 995,
+        "vocab_token": "▁value"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1432,
+        "vocab_token": "Ġvalue"
+      }
+    },
+    " data": {
+      "bigcode/starcoder2-3b": {
+        "id": 727,
+        "vocab_token": "Ġdata"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 848,
+        "vocab_token": "▁data"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1189,
+        "vocab_token": "Ġdata"
+      }
+    },
+    " result": {
+      "bigcode/starcoder2-3b": {
+        "id": 1074,
+        "vocab_token": "Ġresult"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1121,
+        "vocab_token": "▁result"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1228,
+        "vocab_token": "Ġresult"
+      }
+    },
+    " index": {
+      "bigcode/starcoder2-3b": {
+        "id": 1671,
+        "vocab_token": "Ġindex"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2380,
+        "vocab_token": "▁index"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3750,
+        "vocab_token": "Ġindex"
+      }
+    },
+    " count": {
+      "bigcode/starcoder2-3b": {
+        "id": 2409,
+        "vocab_token": "Ġcount"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2302,
+        "vocab_token": "▁count"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1683,
+        "vocab_token": "Ġcount"
+      }
+    },
+    " size": {
+      "bigcode/starcoder2-3b": {
+        "id": 1354,
+        "vocab_token": "Ġsize"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2159,
+        "vocab_token": "▁size"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 2398,
+        "vocab_token": "Ġsize"
+      }
+    },
+    " length": {
+      "bigcode/starcoder2-3b": {
+        "id": 3124,
+        "vocab_token": "Ġlength"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 3309,
+        "vocab_token": "▁length"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3960,
+        "vocab_token": "Ġlength"
+      }
+    },
+    " type": {
+      "bigcode/starcoder2-3b": {
+        "id": 847,
+        "vocab_token": "Ġtype"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1134,
+        "vocab_token": "▁type"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1443,
+        "vocab_token": "Ġtype"
+      }
+    },
+    " name": {
+      "bigcode/starcoder2-3b": {
+        "id": 655,
+        "vocab_token": "Ġname"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1024,
+        "vocab_token": "▁name"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1208,
+        "vocab_token": "Ġname"
+      }
+    },
+    " path": {
+      "bigcode/starcoder2-3b": {
+        "id": 1536,
+        "vocab_token": "Ġpath"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2224,
+        "vocab_token": "▁path"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3076,
+        "vocab_token": "Ġpath"
+      }
+    },
+    " key": {
+      "bigcode/starcoder2-3b": {
+        "id": 1221,
+        "vocab_token": "Ġkey"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1820,
+        "vocab_token": "▁key"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 2119,
+        "vocab_token": "Ġkey"
+      }
+    },
+    " file": {
+      "bigcode/starcoder2-3b": {
+        "id": 822,
+        "vocab_token": "Ġfile"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 934,
+        "vocab_token": "▁file"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1753,
+        "vocab_token": "Ġfile"
+      }
+    },
+    " list": {
+      "bigcode/starcoder2-3b": {
+        "id": 1168,
+        "vocab_token": "Ġlist"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1051,
+        "vocab_token": "▁list"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1517,
+        "vocab_token": "Ġlist"
+      }
+    },
+    " node": {
+      "bigcode/starcoder2-3b": {
+        "id": 1560,
+        "vocab_token": "Ġnode"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2943,
+        "vocab_token": "▁node"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 4256,
+        "vocab_token": "Ġnode"
+      }
+    },
+    " tree": {
+      "bigcode/starcoder2-3b": {
+        "id": 4369,
+        "vocab_token": "Ġtree"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 5447,
+        "vocab_token": "▁tree"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 5319,
+        "vocab_token": "Ġtree"
+      }
+    },
+    " stack": {
+      "bigcode/starcoder2-3b": {
+        "id": 4154,
+        "vocab_token": "Ġstack"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 5096,
+        "vocab_token": "▁stack"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 10215,
+        "vocab_token": "Ġstack"
+      }
+    },
+    " queue": {
+      "bigcode/starcoder2-3b": {
+        "id": 5535,
+        "vocab_token": "Ġqueue"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 9521,
+        "vocab_token": "▁queue"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 16600,
+        "vocab_token": "Ġqueue"
+      }
+    },
+    " cache": {
+      "bigcode/starcoder2-3b": {
+        "id": 3337,
+        "vocab_token": "Ġcache"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 7090,
+        "vocab_token": "▁cache"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 10048,
+        "vocab_token": "Ġcache"
+      }
+    },
+    " buffer": {
+      "bigcode/starcoder2-3b": {
+        "id": 3129,
+        "vocab_token": "Ġbuffer"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 6835,
+        "vocab_token": "▁buffer"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 9421,
+        "vocab_token": "Ġbuffer"
+      }
+    },
+    " read": {
+      "bigcode/starcoder2-3b": {
+        "id": 1511,
+        "vocab_token": "Ġread"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1303,
+        "vocab_token": "▁read"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1272,
+        "vocab_token": "Ġread"
+      }
+    },
+    " write": {
+      "bigcode/starcoder2-3b": {
+        "id": 2886,
+        "vocab_token": "Ġwrite"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2436,
+        "vocab_token": "▁write"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3697,
+        "vocab_token": "Ġwrite"
+      }
+    },
+    " parse": {
+      "bigcode/starcoder2-3b": {
+        "id": 3203,
+        "vocab_token": "Ġparse"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 6088,
+        "vocab_token": "▁parse"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 12313,
+        "vocab_token": "Ġparse"
+      }
+    },
+    " sort": {
+      "bigcode/starcoder2-3b": {
+        "id": 3873,
+        "vocab_token": "Ġsort"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2656,
+        "vocab_token": "▁sort"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3724,
+        "vocab_token": "Ġsort"
+      }
+    },
+    " search": {
+      "bigcode/starcoder2-3b": {
+        "id": 3252,
+        "vocab_token": "Ġsearch"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2740,
+        "vocab_token": "▁search"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3348,
+        "vocab_token": "Ġsearch"
+      }
+    },
+    " filter": {
+      "bigcode/starcoder2-3b": {
+        "id": 2785,
+        "vocab_token": "Ġfilter"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 4175,
+        "vocab_token": "▁filter"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 6226,
+        "vocab_token": "Ġfilter"
+      }
+    },
+    " merge": {
+      "bigcode/starcoder2-3b": {
+        "id": 4009,
+        "vocab_token": "Ġmerge"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 10366,
+        "vocab_token": "▁merge"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 19387,
+        "vocab_token": "Ġmerge"
+      }
+    },
+    " split": {
+      "bigcode/starcoder2-3b": {
+        "id": 6168,
+        "vocab_token": "Ġsplit"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 6219,
+        "vocab_token": "▁split"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 9818,
+        "vocab_token": "Ġsplit"
+      }
+    },
+    " encode": {
+      "bigcode/starcoder2-3b": {
+        "id": 9356,
+        "vocab_token": "Ġencode"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 19750,
+        "vocab_token": "▁encode"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 31060,
+        "vocab_token": "Ġencode"
+      }
+    },
+    " format": {
+      "bigcode/starcoder2-3b": {
+        "id": 2224,
+        "vocab_token": "Ġformat"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 3402,
+        "vocab_token": "▁format"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 4797,
+        "vocab_token": "Ġformat"
+      }
+    },
+    " convert": {
+      "bigcode/starcoder2-3b": {
+        "id": 4511,
+        "vocab_token": "Ġconvert"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 3588,
+        "vocab_token": "▁convert"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 5436,
+        "vocab_token": "Ġconvert"
+      }
+    },
+    " compute": {
+      "bigcode/starcoder2-3b": {
+        "id": 7665,
+        "vocab_token": "Ġcompute"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 10272,
+        "vocab_token": "▁compute"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 11771,
+        "vocab_token": "Ġcompute"
+      }
+    },
+    " execute": {
+      "bigcode/starcoder2-3b": {
+        "id": 5755,
+        "vocab_token": "Ġexecute"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 6222,
+        "vocab_token": "▁execute"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 11682,
+        "vocab_token": "Ġexecute"
+      }
+    },
+    " compile": {
+      "bigcode/starcoder2-3b": {
+        "id": 8340,
+        "vocab_token": "Ġcompile"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 6633,
+        "vocab_token": "▁compile"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 22141,
+        "vocab_token": "Ġcompile"
+      }
+    },
+    " debug": {
+      "bigcode/starcoder2-3b": {
+        "id": 4598,
+        "vocab_token": "Ġdebug"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 4744,
+        "vocab_token": "▁debug"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 13257,
+        "vocab_token": "Ġdebug"
+      }
+    },
+    " test": {
+      "bigcode/starcoder2-3b": {
+        "id": 913,
+        "vocab_token": "Ġtest"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1243,
+        "vocab_token": "▁test"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1719,
+        "vocab_token": "Ġtest"
+      }
+    },
+    " deploy": {
+      "bigcode/starcoder2-3b": {
+        "id": 5642,
+        "vocab_token": "Ġdeploy"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 7246,
+        "vocab_token": "▁deploy"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 16175,
+        "vocab_token": "Ġdeploy"
+      }
+    },
+    " optimize": {
+      "bigcode/starcoder2-3b": {
+        "id": 22394,
+        "vocab_token": "Ġoptimize"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 24656,
+        "vocab_token": "▁optimize"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 24315,
+        "vocab_token": "Ġoptimize"
+      }
+    },
+    " validate": {
+      "bigcode/starcoder2-3b": {
+        "id": 6051,
+        "vocab_token": "Ġvalidate"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 12725,
+        "vocab_token": "▁validate"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 21336,
+        "vocab_token": "Ġvalidate"
+      }
+    },
+    " hash": {
+      "bigcode/starcoder2-3b": {
+        "id": 3696,
+        "vocab_token": "Ġhash"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 6608,
+        "vocab_token": "▁hash"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 11802,
+        "vocab_token": "Ġhash"
+      }
+    },
+    " graph": {
+      "bigcode/starcoder2-3b": {
+        "id": 4023,
+        "vocab_token": "Ġgraph"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 3983,
+        "vocab_token": "▁graph"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 4144,
+        "vocab_token": "Ġgraph"
+      }
+    },
+    " heap": {
+      "bigcode/starcoder2-3b": {
+        "id": 15116,
+        "vocab_token": "Ġheap"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 16947,
+        "vocab_token": "▁heap"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 25608,
+        "vocab_token": "Ġheap"
+      }
+    },
+    " matrix": {
+      "bigcode/starcoder2-3b": {
+        "id": 5083,
+        "vocab_token": "Ġmatrix"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 4636,
+        "vocab_token": "▁matrix"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 5852,
+        "vocab_token": "Ġmatrix"
+      }
+    },
+    " tensor": {
+      "bigcode/starcoder2-3b": {
+        "id": 8634,
+        "vocab_token": "Ġtensor"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 12489,
+        "vocab_token": "▁tensor"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 13514,
+        "vocab_token": "Ġtensor"
+      }
+    },
+    " vector": {
+      "bigcode/starcoder2-3b": {
+        "id": 4065,
+        "vocab_token": "Ġvector"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 4608,
+        "vocab_token": "▁vector"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 6129,
+        "vocab_token": "Ġvector"
+      }
+    },
+    " map": {
+      "bigcode/starcoder2-3b": {
+        "id": 2010,
+        "vocab_token": "Ġmap"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2910,
+        "vocab_token": "▁map"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3579,
+        "vocab_token": "Ġmap"
+      }
+    },
+    " set": {
+      "bigcode/starcoder2-3b": {
+        "id": 758,
+        "vocab_token": "Ġset"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 731,
+        "vocab_token": "▁set"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 841,
+        "vocab_token": "Ġset"
+      }
+    },
+    " dict": {
+      "bigcode/starcoder2-3b": {
+        "id": 5473,
+        "vocab_token": "Ġdict"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 9657,
+        "vocab_token": "▁dict"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 13026,
+        "vocab_token": "Ġdict"
+      }
+    },
+    " table": {
+      "bigcode/starcoder2-3b": {
+        "id": 1877,
+        "vocab_token": "Ġtable"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1591,
+        "vocab_token": "▁table"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 2365,
+        "vocab_token": "Ġtable"
+      }
+    },
+    " row": {
+      "bigcode/starcoder2-3b": {
+        "id": 2720,
+        "vocab_token": "Ġrow"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1948,
+        "vocab_token": "▁row"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 5439,
+        "vocab_token": "Ġrow"
+      }
+    },
+    " column": {
+      "bigcode/starcoder2-3b": {
+        "id": 2656,
+        "vocab_token": "Ġcolumn"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1897,
+        "vocab_token": "▁column"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3812,
+        "vocab_token": "Ġcolumn"
+      }
+    },
+    " record": {
+      "bigcode/starcoder2-3b": {
+        "id": 3646,
+        "vocab_token": "Ġrecord"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2407,
+        "vocab_token": "▁record"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3361,
+        "vocab_token": "Ġrecord"
+      }
+    },
+    " field": {
+      "bigcode/starcoder2-3b": {
+        "id": 1620,
+        "vocab_token": "Ġfield"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1746,
+        "vocab_token": "▁field"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 2010,
+        "vocab_token": "Ġfield"
+      }
+    },
+    " block": {
+      "bigcode/starcoder2-3b": {
+        "id": 2181,
+        "vocab_token": "Ġblock"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2908,
+        "vocab_token": "▁block"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3839,
+        "vocab_token": "Ġblock"
+      }
+    },
+    " segment": {
+      "bigcode/starcoder2-3b": {
+        "id": 8459,
+        "vocab_token": "Ġsegment"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 10768,
+        "vocab_token": "▁segment"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 10727,
+        "vocab_token": "Ġsegment"
+      }
+    },
+    " stream": {
+      "bigcode/starcoder2-3b": {
+        "id": 3458,
+        "vocab_token": "Ġstream"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 4840,
+        "vocab_token": "▁stream"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 5531,
+        "vocab_token": "Ġstream"
+      }
+    },
+    " pipeline": {
+      "bigcode/starcoder2-3b": {
+        "id": 8613,
+        "vocab_token": "Ġpipeline"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 16439,
+        "vocab_token": "▁pipeline"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 20830,
+        "vocab_token": "Ġpipeline"
+      }
+    },
+    " schema": {
+      "bigcode/starcoder2-3b": {
+        "id": 5379,
+        "vocab_token": "Ġschema"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 10938,
+        "vocab_token": "▁schema"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 16135,
+        "vocab_token": "Ġschema"
+      }
+    },
+    " cluster": {
+      "bigcode/starcoder2-3b": {
+        "id": 4925,
+        "vocab_token": "Ġcluster"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 9867,
+        "vocab_token": "▁cluster"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 9654,
+        "vocab_token": "Ġcluster"
+      }
+    },
+    " server": {
+      "bigcode/starcoder2-3b": {
+        "id": 2160,
+        "vocab_token": "Ġserver"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1923,
+        "vocab_token": "▁server"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3698,
+        "vocab_token": "Ġserver"
+      }
+    },
+    " client": {
+      "bigcode/starcoder2-3b": {
+        "id": 2060,
+        "vocab_token": "Ġclient"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 3132,
+        "vocab_token": "▁client"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 4651,
+        "vocab_token": "Ġclient"
+      }
+    },
+    " request": {
+      "bigcode/starcoder2-3b": {
+        "id": 1343,
+        "vocab_token": "Ġrequest"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2009,
+        "vocab_token": "▁request"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3092,
+        "vocab_token": "Ġrequest"
+      }
+    },
+    " response": {
+      "bigcode/starcoder2-3b": {
+        "id": 1808,
+        "vocab_token": "Ġresponse"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2933,
+        "vocab_token": "▁response"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 4388,
+        "vocab_token": "Ġresponse"
+      }
+    },
+    " socket": {
+      "bigcode/starcoder2-3b": {
+        "id": 6241,
+        "vocab_token": "Ġsocket"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 9909,
+        "vocab_token": "▁socket"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 17137,
+        "vocab_token": "Ġsocket"
+      }
+    },
+    " port": {
+      "bigcode/starcoder2-3b": {
+        "id": 2618,
+        "vocab_token": "Ġport"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2011,
+        "vocab_token": "▁port"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 2249,
+        "vocab_token": "Ġport"
+      }
+    },
+    " host": {
+      "bigcode/starcoder2-3b": {
+        "id": 3421,
+        "vocab_token": "Ġhost"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 3495,
+        "vocab_token": "▁host"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3686,
+        "vocab_token": "Ġhost"
+      }
+    },
+    " domain": {
+      "bigcode/starcoder2-3b": {
+        "id": 5900,
+        "vocab_token": "Ġdomain"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 5354,
+        "vocab_token": "▁domain"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 6980,
+        "vocab_token": "Ġdomain"
+      }
+    },
+    " proxy": {
+      "bigcode/starcoder2-3b": {
+        "id": 7671,
+        "vocab_token": "Ġproxy"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 10166,
+        "vocab_token": "▁proxy"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 15072,
+        "vocab_token": "Ġproxy"
+      }
+    },
+    " protocol": {
+      "bigcode/starcoder2-3b": {
+        "id": 7088,
+        "vocab_token": "Ġprotocol"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 9608,
+        "vocab_token": "▁protocol"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 12340,
+        "vocab_token": "Ġprotocol"
+      }
+    },
+    " packet": {
+      "bigcode/starcoder2-3b": {
+        "id": 6892,
+        "vocab_token": "Ġpacket"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 18203,
+        "vocab_token": "▁packet"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 18108,
+        "vocab_token": "Ġpacket"
+      }
+    },
+    " route": {
+      "bigcode/starcoder2-3b": {
+        "id": 5553,
+        "vocab_token": "Ġroute"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 5782,
+        "vocab_token": "▁route"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 9941,
+        "vocab_token": "Ġroute"
+      }
+    },
+    " gateway": {
+      "bigcode/starcoder2-3b": {
+        "id": 16673,
+        "vocab_token": "Ġgateway"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 28646,
+        "vocab_token": "▁gateway"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 27662,
+        "vocab_token": "Ġgateway"
+      }
+    },
+    " session": {
+      "bigcode/starcoder2-3b": {
+        "id": 3541,
+        "vocab_token": "Ġsession"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 4867,
+        "vocab_token": "▁session"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 6670,
+        "vocab_token": "Ġsession"
+      }
+    },
+    " cookie": {
+      "bigcode/starcoder2-3b": {
+        "id": 11077,
+        "vocab_token": "Ġcookie"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 15327,
+        "vocab_token": "▁cookie"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 23042,
+        "vocab_token": "Ġcookie"
+      }
+    },
+    " header": {
+      "bigcode/starcoder2-3b": {
+        "id": 3353,
+        "vocab_token": "Ġheader"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 4839,
+        "vocab_token": "▁header"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 11125,
+        "vocab_token": "Ġheader"
+      }
+    },
+    " endpoint": {
+      "bigcode/starcoder2-3b": {
+        "id": 7008,
+        "vocab_token": "Ġendpoint"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 16248,
+        "vocab_token": "▁endpoint"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 24159,
+        "vocab_token": "Ġendpoint"
+      }
+    },
+    " timeout": {
+      "bigcode/starcoder2-3b": {
+        "id": 5882,
+        "vocab_token": "Ġtimeout"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 11815,
+        "vocab_token": "▁timeout"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 18647,
+        "vocab_token": "Ġtimeout"
+      }
+    },
+    " payload": {
+      "bigcode/starcoder2-3b": {
+        "id": 5808,
+        "vocab_token": "Ġpayload"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 20092,
+        "vocab_token": "▁payload"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 27473,
+        "vocab_token": "Ġpayload"
+      }
+    },
+    " encryption": {
+      "bigcode/starcoder2-3b": {
+        "id": 17533,
+        "vocab_token": "Ġencryption"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 20956,
+        "vocab_token": "▁encryption"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 23573,
+        "vocab_token": "Ġencryption"
+      }
+    },
+    " +": {
+      "bigcode/starcoder2-3b": {
+        "id": 494,
+        "vocab_token": "Ġ+"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 718,
+        "vocab_token": "▁+"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 945,
+        "vocab_token": "Ġ+"
+      }
+    },
+    " -": {
+      "bigcode/starcoder2-3b": {
+        "id": 449,
+        "vocab_token": "Ġ-"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 448,
+        "vocab_token": "▁-"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 567,
+        "vocab_token": "Ġ-"
+      }
+    },
+    " *": {
+      "bigcode/starcoder2-3b": {
+        "id": 338,
+        "vocab_token": "Ġ*"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 334,
+        "vocab_token": "▁*"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 572,
+        "vocab_token": "Ġ*"
+      }
+    },
+    " /": {
+      "bigcode/starcoder2-3b": {
+        "id": 536,
+        "vocab_token": "Ġ/"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 847,
+        "vocab_token": "▁/"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 889,
+        "vocab_token": "Ġ/"
+      }
+    },
+    " %": {
+      "bigcode/starcoder2-3b": {
+        "id": 925,
+        "vocab_token": "Ġ%"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1273,
+        "vocab_token": "▁%"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 3018,
+        "vocab_token": "Ġ%"
+      }
+    },
+    " =": {
+      "bigcode/starcoder2-3b": {
+        "id": 299,
+        "vocab_token": "Ġ="
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 353,
+        "vocab_token": "▁="
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 405,
+        "vocab_token": "Ġ="
+      }
+    },
+    " <": {
+      "bigcode/starcoder2-3b": {
+        "id": 350,
+        "vocab_token": "Ġ<"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 529,
+        "vocab_token": "▁<"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1013,
+        "vocab_token": "Ġ<"
+      }
+    },
+    " >": {
+      "bigcode/starcoder2-3b": {
+        "id": 868,
+        "vocab_token": "Ġ>"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1405,
+        "vocab_token": "▁>"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1938,
+        "vocab_token": "Ġ>"
+      }
+    },
+    " !": {
+      "bigcode/starcoder2-3b": {
+        "id": 673,
+        "vocab_token": "Ġ!"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1738,
+        "vocab_token": "▁!"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 2069,
+        "vocab_token": "Ġ!"
+      }
+    },
+    " &": {
+      "bigcode/starcoder2-3b": {
+        "id": 568,
+        "vocab_token": "Ġ&"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 669,
+        "vocab_token": "▁&"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 573,
+        "vocab_token": "Ġ&"
+      }
+    },
+    " |": {
+      "bigcode/starcoder2-3b": {
+        "id": 542,
+        "vocab_token": "Ġ|"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 891,
+        "vocab_token": "▁|"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 939,
+        "vocab_token": "Ġ|"
+      }
+    },
+    " ^": {
+      "bigcode/starcoder2-3b": {
+        "id": 5317,
+        "vocab_token": "Ġ^"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 6228,
+        "vocab_token": "▁^"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 8494,
+        "vocab_token": "Ġ^"
+      }
+    },
+    " ~": {
+      "bigcode/starcoder2-3b": {
+        "id": 3182,
+        "vocab_token": "Ġ~"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 3695,
+        "vocab_token": "▁~"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 4813,
+        "vocab_token": "Ġ~"
+      }
+    },
+    " ==": {
+      "bigcode/starcoder2-3b": {
+        "id": 630,
+        "vocab_token": "Ġ=="
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 1275,
+        "vocab_token": "▁=="
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 2312,
+        "vocab_token": "Ġ=="
+      }
+    },
+    " >=": {
+      "bigcode/starcoder2-3b": {
+        "id": 2394,
+        "vocab_token": "Ġ>="
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 6736,
+        "vocab_token": "▁>="
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 17237,
+        "vocab_token": "Ġ>="
+      }
+    },
+    " **": {
+      "bigcode/starcoder2-3b": {
+        "id": 1137,
+        "vocab_token": "Ġ**"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 3579,
+        "vocab_token": "▁**"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 9220,
+        "vocab_token": "Ġ**"
+      }
+    },
+    " //": {
+      "bigcode/starcoder2-3b": {
+        "id": 453,
+        "vocab_token": "Ġ//"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 849,
+        "vocab_token": "▁//"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1069,
+        "vocab_token": "Ġ//"
+      }
+    },
+    " ::": {
+      "bigcode/starcoder2-3b": {
+        "id": 2053,
+        "vocab_token": "Ġ::"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 4761,
+        "vocab_token": "▁::"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 11245,
+        "vocab_token": "Ġ::"
+      }
+    },
+    " &&": {
+      "bigcode/starcoder2-3b": {
+        "id": 979,
+        "vocab_token": "Ġ&&"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 2607,
+        "vocab_token": "▁&&"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 2956,
+        "vocab_token": "Ġ&&"
+      }
+    },
+    " ||": {
+      "bigcode/starcoder2-3b": {
+        "id": 1293,
+        "vocab_token": "Ġ||"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 3830,
+        "vocab_token": "▁||"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 1550,
+        "vocab_token": "Ġ||"
+      }
+    },
+    " 0": {
+      "bigcode/starcoder2-3b": {
+        "id": 53,
+        "vocab_token": "0"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 29900,
+        "vocab_token": "0"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 15,
+        "vocab_token": "0"
+      }
+    },
+    " 1": {
+      "bigcode/starcoder2-3b": {
+        "id": 54,
+        "vocab_token": "1"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 29896,
+        "vocab_token": "1"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 16,
+        "vocab_token": "1"
+      }
+    },
+    " 2": {
+      "bigcode/starcoder2-3b": {
+        "id": 55,
+        "vocab_token": "2"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 29906,
+        "vocab_token": "2"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 17,
+        "vocab_token": "2"
+      }
+    },
+    " 3": {
+      "bigcode/starcoder2-3b": {
+        "id": 56,
+        "vocab_token": "3"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 29941,
+        "vocab_token": "3"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 18,
+        "vocab_token": "3"
+      }
+    },
+    " 4": {
+      "bigcode/starcoder2-3b": {
+        "id": 57,
+        "vocab_token": "4"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 29946,
+        "vocab_token": "4"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 19,
+        "vocab_token": "4"
+      }
+    },
+    " 5": {
+      "bigcode/starcoder2-3b": {
+        "id": 58,
+        "vocab_token": "5"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 29945,
+        "vocab_token": "5"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 20,
+        "vocab_token": "5"
+      }
+    },
+    " 6": {
+      "bigcode/starcoder2-3b": {
+        "id": 59,
+        "vocab_token": "6"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 29953,
+        "vocab_token": "6"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 21,
+        "vocab_token": "6"
+      }
+    },
+    " 7": {
+      "bigcode/starcoder2-3b": {
+        "id": 60,
+        "vocab_token": "7"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 29955,
+        "vocab_token": "7"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 22,
+        "vocab_token": "7"
+      }
+    },
+    " 8": {
+      "bigcode/starcoder2-3b": {
+        "id": 61,
+        "vocab_token": "8"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 29947,
+        "vocab_token": "8"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 23,
+        "vocab_token": "8"
+      }
+    },
+    " 9": {
+      "bigcode/starcoder2-3b": {
+        "id": 62,
+        "vocab_token": "9"
+      },
+      "codellama/CodeLlama-7b-hf": {
+        "id": 29929,
+        "vocab_token": "9"
+      },
+      "deepseek-ai/deepseek-coder-6.7b-base": {
+        "id": 24,
+        "vocab_token": "9"
+      }
+    }
+  }
+}

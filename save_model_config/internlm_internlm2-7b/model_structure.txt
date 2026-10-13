@@ -1,0 +1,24 @@
+InternLM2ForCausalLM(
+  (model): InternLM2Model(
+    (tok_embeddings): Embedding(92544, 4096, padding_idx=2)
+    (layers): ModuleList(
+      (0-31): 32 x InternLM2DecoderLayer(
+        (attention): InternLM2Attention(
+          (wqkv): Linear(in_features=4096, out_features=6144, bias=False)
+          (wo): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): InternLM2RotaryEmbedding()
+        )
+        (feed_forward): InternLM2MLP(
+          (w1): Linear(in_features=4096, out_features=14336, bias=False)
+          (w3): Linear(in_features=4096, out_features=14336, bias=False)
+          (w2): Linear(in_features=14336, out_features=4096, bias=False)
+          (act_fn): SiLUActivation()
+        )
+        (attention_norm): InternLM2RMSNorm()
+        (ffn_norm): InternLM2RMSNorm()
+      )
+    )
+    (norm): InternLM2RMSNorm()
+  )
+  (output): Linear(in_features=4096, out_features=92544, bias=False)
+)

@@ -1,0 +1,540 @@
+{
+  "domain": "protein_sequence",
+  "models": [
+    "nferruz/ProtGPT2",
+    "AI4PD/ZymCTRL",
+    "hugohrban/progen2-small",
+    "hugohrban/progen2-medium"
+  ],
+  "categories": {
+    "amino_acids": [
+      "A",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "N",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "V",
+      "W",
+      "Y"
+    ]
+  },
+  "tokens": [
+    "A",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "K",
+    "L",
+    "M",
+    "N",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "V",
+    "W",
+    "Y"
+  ],
+  "n_tokens": 20,
+  "token_model_coverage": {
+    "A": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "C": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "D": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "E": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "F": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "G": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "H": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "I": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "K": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "L": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "M": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "N": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "P": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "Q": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "R": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "S": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "T": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "V": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "W": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ],
+    "Y": [
+      "nferruz/ProtGPT2",
+      "AI4PD/ZymCTRL",
+      "hugohrban/progen2-small",
+      "hugohrban/progen2-medium"
+    ]
+  },
+  "token_ids": {
+    "A": {
+      "nferruz/ProtGPT2": {
+        "id": 33,
+        "vocab_token": "A"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 432,
+        "vocab_token": "A"
+      },
+      "hugohrban/progen2-small": {
+        "id": 5,
+        "vocab_token": "A"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 5,
+        "vocab_token": "A"
+      }
+    },
+    "C": {
+      "nferruz/ProtGPT2": {
+        "id": 35,
+        "vocab_token": "C"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 434,
+        "vocab_token": "C"
+      },
+      "hugohrban/progen2-small": {
+        "id": 7,
+        "vocab_token": "C"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 7,
+        "vocab_token": "C"
+      }
+    },
+    "D": {
+      "nferruz/ProtGPT2": {
+        "id": 36,
+        "vocab_token": "D"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 435,
+        "vocab_token": "D"
+      },
+      "hugohrban/progen2-small": {
+        "id": 8,
+        "vocab_token": "D"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 8,
+        "vocab_token": "D"
+      }
+    },
+    "E": {
+      "nferruz/ProtGPT2": {
+        "id": 37,
+        "vocab_token": "E"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 436,
+        "vocab_token": "E"
+      },
+      "hugohrban/progen2-small": {
+        "id": 9,
+        "vocab_token": "E"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 9,
+        "vocab_token": "E"
+      }
+    },
+    "F": {
+      "nferruz/ProtGPT2": {
+        "id": 38,
+        "vocab_token": "F"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 437,
+        "vocab_token": "F"
+      },
+      "hugohrban/progen2-small": {
+        "id": 10,
+        "vocab_token": "F"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 10,
+        "vocab_token": "F"
+      }
+    },
+    "G": {
+      "nferruz/ProtGPT2": {
+        "id": 39,
+        "vocab_token": "G"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 438,
+        "vocab_token": "G"
+      },
+      "hugohrban/progen2-small": {
+        "id": 11,
+        "vocab_token": "G"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 11,
+        "vocab_token": "G"
+      }
+    },
+    "H": {
+      "nferruz/ProtGPT2": {
+        "id": 40,
+        "vocab_token": "H"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 439,
+        "vocab_token": "H"
+      },
+      "hugohrban/progen2-small": {
+        "id": 12,
+        "vocab_token": "H"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 12,
+        "vocab_token": "H"
+      }
+    },
+    "I": {
+      "nferruz/ProtGPT2": {
+        "id": 41,
+        "vocab_token": "I"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 440,
+        "vocab_token": "I"
+      },
+      "hugohrban/progen2-small": {
+        "id": 13,
+        "vocab_token": "I"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 13,
+        "vocab_token": "I"
+      }
+    },
+    "K": {
+      "nferruz/ProtGPT2": {
+        "id": 43,
+        "vocab_token": "K"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 441,
+        "vocab_token": "K"
+      },
+      "hugohrban/progen2-small": {
+        "id": 14,
+        "vocab_token": "K"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 14,
+        "vocab_token": "K"
+      }
+    },
+    "L": {
+      "nferruz/ProtGPT2": {
+        "id": 44,
+        "vocab_token": "L"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 442,
+        "vocab_token": "L"
+      },
+      "hugohrban/progen2-small": {
+        "id": 15,
+        "vocab_token": "L"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 15,
+        "vocab_token": "L"
+      }
+    },
+    "M": {
+      "nferruz/ProtGPT2": {
+        "id": 45,
+        "vocab_token": "M"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 443,
+        "vocab_token": "M"
+      },
+      "hugohrban/progen2-small": {
+        "id": 16,
+        "vocab_token": "M"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 16,
+        "vocab_token": "M"
+      }
+    },
+    "N": {
+      "nferruz/ProtGPT2": {
+        "id": 46,
+        "vocab_token": "N"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 444,
+        "vocab_token": "N"
+      },
+      "hugohrban/progen2-small": {
+        "id": 17,
+        "vocab_token": "N"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 17,
+        "vocab_token": "N"
+      }
+    },
+    "P": {
+      "nferruz/ProtGPT2": {
+        "id": 48,
+        "vocab_token": "P"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 446,
+        "vocab_token": "P"
+      },
+      "hugohrban/progen2-small": {
+        "id": 19,
+        "vocab_token": "P"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 19,
+        "vocab_token": "P"
+      }
+    },
+    "Q": {
+      "nferruz/ProtGPT2": {
+        "id": 49,
+        "vocab_token": "Q"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 447,
+        "vocab_token": "Q"
+      },
+      "hugohrban/progen2-small": {
+        "id": 20,
+        "vocab_token": "Q"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 20,
+        "vocab_token": "Q"
+      }
+    },
+    "R": {
+      "nferruz/ProtGPT2": {
+        "id": 50,
+        "vocab_token": "R"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 448,
+        "vocab_token": "R"
+      },
+      "hugohrban/progen2-small": {
+        "id": 21,
+        "vocab_token": "R"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 21,
+        "vocab_token": "R"
+      }
+    },
+    "S": {
+      "nferruz/ProtGPT2": {
+        "id": 51,
+        "vocab_token": "S"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 449,
+        "vocab_token": "S"
+      },
+      "hugohrban/progen2-small": {
+        "id": 22,
+        "vocab_token": "S"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 22,
+        "vocab_token": "S"
+      }
+    },
+    "T": {
+      "nferruz/ProtGPT2": {
+        "id": 52,
+        "vocab_token": "T"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 450,
+        "vocab_token": "T"
+      },
+      "hugohrban/progen2-small": {
+        "id": 23,
+        "vocab_token": "T"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 23,
+        "vocab_token": "T"
+      }
+    },
+    "V": {
+      "nferruz/ProtGPT2": {
+        "id": 54,
+        "vocab_token": "V"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 452,
+        "vocab_token": "V"
+      },
+      "hugohrban/progen2-small": {
+        "id": 25,
+        "vocab_token": "V"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 25,
+        "vocab_token": "V"
+      }
+    },
+    "W": {
+      "nferruz/ProtGPT2": {
+        "id": 55,
+        "vocab_token": "W"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 453,
+        "vocab_token": "W"
+      },
+      "hugohrban/progen2-small": {
+        "id": 26,
+        "vocab_token": "W"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 26,
+        "vocab_token": "W"
+      }
+    },
+    "Y": {
+      "nferruz/ProtGPT2": {
+        "id": 57,
+        "vocab_token": "Y"
+      },
+      "AI4PD/ZymCTRL": {
+        "id": 455,
+        "vocab_token": "Y"
+      },
+      "hugohrban/progen2-small": {
+        "id": 28,
+        "vocab_token": "Y"
+      },
+      "hugohrban/progen2-medium": {
+        "id": 28,
+        "vocab_token": "Y"
+      }
+    }
+  }
+}

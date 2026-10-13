@@ -1,0 +1,6320 @@
+{
+  "1": {
+    "prompt": "The mother tongue of Danielle Darrieux is",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "2": {
+    "prompt": "Autonomous University of Madrid, which is located in",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "3": {
+    "prompt": "Apple A5 was created by",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "4": {
+    "prompt": "Shree Pundalik, created in",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "5": {
+    "prompt": "BBC One, by",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "6": {
+    "prompt": "Michel Denisot spoke the language",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "7": {
+    "prompt": "The headquarter of Monell Chemical Senses Center is located in",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "8": {
+    "prompt": "Platform Controller Hub is created by",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "9": {
+    "prompt": "Billy Roche, who works as",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "10": {
+    "prompt": "Jean Gaven, speaker of",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "11": {
+    "prompt": "Kryvyi Rih belongs to the continent of",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "12": {
+    "prompt": "controller.controller, that originated in",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "13": {
+    "prompt": "Laurent Cars was employed in",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "14": {
+    "prompt": "The native language of Symeon of Polotsk is",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "15": {
+    "prompt": "The Loner was released on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "16": {
+    "prompt": "Mahmoud Fawzi has a citizenship from",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "17": {
+    "prompt": "Emilio Lussu speaks",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "18": {
+    "prompt": "The language used by Jean-Baptiste Marchand is",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "19": {
+    "prompt": "The mother tongue of Jean Galland is",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "20": {
+    "prompt": "Pochepsky District, which is located in",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "21": {
+    "prompt": "In Northwest Territories, an official language is",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "22": {
+    "prompt": "Eli Maor is originally from",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "23": {
+    "prompt": "Carol Zhao is a citizen of",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "24": {
+    "prompt": "James Hardiman speaks",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "25": {
+    "prompt": "Gregg Edelman works as",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "26": {
+    "prompt": "The native language of Tanya Lopert is",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "27": {
+    "prompt": "Nancy Astor, Viscountess Astor was employed in",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "28": {
+    "prompt": "Windows Embedded CE 6.0 is a product of",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "29": {
+    "prompt": "George Goring, Lord Goring speaks the language",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "30": {
+    "prompt": "Nathuram Godse, a citizen of",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "31": {
+    "prompt": "Stefanos Stratigos is a native speaker of",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "32": {
+    "prompt": "The language of Zampa is",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "33": {
+    "prompt": "LeRoy Collins worked in the city of",
+    "target_token": "Florida",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "34": {
+    "prompt": "Wanne-Eickel Central Station, located in",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "35": {
+    "prompt": "Flotation Toy Warning, founded in",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "36": {
+    "prompt": "Ipsos MORI's headquarters are in",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "37": {
+    "prompt": "Mama Corsica was written in",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "38": {
+    "prompt": "Savdhaan India @ 11, formulated in",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "39": {
+    "prompt": "The official religion of Jahangir is",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "40": {
+    "prompt": "Muhammad Shah is follower of",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "41": {
+    "prompt": "Hohenlohe-Langenburg is located in the country of",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "42": {
+    "prompt": "Bastille, which is located in",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "43": {
+    "prompt": "Shablykinsky District is located in the country of",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "44": {
+    "prompt": "Gwen Stefani is a native speaker of",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "45": {
+    "prompt": "Pat Crowley, who works as",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "46": {
+    "prompt": "RSM-56 Bulava, that was created in",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "47": {
+    "prompt": "The official religion of Uwais Qarni is",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "48": {
+    "prompt": "Luana Walters's profession is an",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "49": {
+    "prompt": "Immaculate Machine, that was started in",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "50": {
+    "prompt": "Saratov Oblast, in",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "51": {
+    "prompt": "Typical Cats formed in",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "52": {
+    "prompt": "The language of El Correo is",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "53": {
+    "prompt": "The original language of Delusions of Grandeur is",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "54": {
+    "prompt": "The law in Gibraltar declares the language",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "55": {
+    "prompt": "Falling Down was from",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "56": {
+    "prompt": "The headquarter of Newcomen Society is in",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "57": {
+    "prompt": "Ozumba is located in the country of",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "58": {
+    "prompt": "The headquarters of Northeastern University is in",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "59": {
+    "prompt": "MSN Music, by",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "60": {
+    "prompt": "Johannesburg is a twin city of",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "61": {
+    "prompt": "Piper Verlag, which is located in",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "62": {
+    "prompt": "The profession of Mary Collinson is",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "63": {
+    "prompt": "William Rees-Mogg, who is employed by",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "64": {
+    "prompt": "Irakli Alasania has a citizenship from",
+    "target_token": "Georgia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "65": {
+    "prompt": "John Queen, who is a citizen of",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "66": {
+    "prompt": "Sam Cooke, that was created in",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "67": {
+    "prompt": "Louis Vola lost their life at",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "68": {
+    "prompt": "The occupation of Shreela Ghosh is",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "69": {
+    "prompt": "Sandy Bridge was a product of",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "70": {
+    "prompt": "Le Iene was developed in",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "71": {
+    "prompt": "Chicago Midway International Airport is named for",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "72": {
+    "prompt": "The headquarters of Pappas Restaurants is in",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "73": {
+    "prompt": "Otto Piene belongs to the organization of",
+    "target_token": "Zero",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "74": {
+    "prompt": "Winnipeg Symphony Orchestra, that was created in",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "75": {
+    "prompt": "The native language of Pierre Messmer is",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "76": {
+    "prompt": "The twin city of Bucharest is",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "77": {
+    "prompt": "The language of Stylus Magazine was",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "78": {
+    "prompt": "The original language of Wild Reeds is",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "79": {
+    "prompt": "Thirteen Colonies can be found in",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "80": {
+    "prompt": "Mehmed the Conqueror is affiliated with the religion",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "81": {
+    "prompt": "Attingal, which is located in",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "82": {
+    "prompt": "Silverchair, that was formulated in",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "83": {
+    "prompt": "The mother tongue of Ilya Ehrenburg is",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "84": {
+    "prompt": "Microsoft Visual Studio was a product of",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "85": {
+    "prompt": "Daily Planet originated in",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "86": {
+    "prompt": "The language of Il ballo delle ingrate was",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "87": {
+    "prompt": "The official language of Italy is",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "88": {
+    "prompt": "Anthony Asquith expired at",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "89": {
+    "prompt": "Fox Soccer News, created in",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "90": {
+    "prompt": "The official religion of As-Saffah is",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "91": {
+    "prompt": "Dominique Perben spoke the language",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "92": {
+    "prompt": "Nizampatnam is located in the country of",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "93": {
+    "prompt": "VP9 is created by",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "94": {
+    "prompt": "Didier Haudepin speaks the language",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "95": {
+    "prompt": "Housos originated in",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "96": {
+    "prompt": "BBC Knowledge, by",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "97": {
+    "prompt": "Mohammad-Taqi Mesbah-Yazdi, a citizen of",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "98": {
+    "prompt": "My-HiME, that was from",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "99": {
+    "prompt": "Nicolaus Olahus speaks",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "100": {
+    "prompt": "Julien Courbet is a native speaker of",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "101": {
+    "prompt": "Maurice de Vlaminck was native to",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "102": {
+    "prompt": "Armored Fleet Dairugger XV, that originated in",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "103": {
+    "prompt": "NRJ Group, that was created in",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "104": {
+    "prompt": "Tehri Garhwal district, in",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "105": {
+    "prompt": "Onufri works in the field of",
+    "target_token": "icon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "106": {
+    "prompt": "Shenyang is a twin city of",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "107": {
+    "prompt": "Cyril Smith took up work in",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "108": {
+    "prompt": "The mother tongue of Alain Robbe-Grillet is",
+    "target_token": "French",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "109": {
+    "prompt": "British Tanker Company's headquarters are in",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "110": {
+    "prompt": "George Auriol used to work in",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "111": {
+    "prompt": "Massenet Festival can be found in",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "112": {
+    "prompt": "Lost in Space premiered on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "113": {
+    "prompt": "Nizamabad district, in",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "114": {
+    "prompt": "Mambo Taxi formed in",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "115": {
+    "prompt": "The headquarter of BSC Young Boys is in",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "116": {
+    "prompt": "The Experiment was originally aired on",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "117": {
+    "prompt": "Arthur Wellesley, 1st Duke of Wellington worked in",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "118": {
+    "prompt": "Kasino originated in",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "119": {
+    "prompt": "The Midway State was formulated in",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "120": {
+    "prompt": "Raymond Flynn was employed in",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "121": {
+    "prompt": "Philip Jenkinson, who works for",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "122": {
+    "prompt": "Hermann Hesse used to work in",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "123": {
+    "prompt": "Kalamazoo County can be found in",
+    "target_token": "Michigan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "124": {
+    "prompt": "Jack McGurn's life ended in",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "125": {
+    "prompt": "John Cygan, who works as",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "126": {
+    "prompt": "The Crazy Ones debuted on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "127": {
+    "prompt": "CBS Storybreak was released on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "128": {
+    "prompt": "Google Drive, created by",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "129": {
+    "prompt": "The original language of Metro 2033 was",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "130": {
+    "prompt": "Olot, located in",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "131": {
+    "prompt": "Frederic William Burton died in",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "132": {
+    "prompt": "Charles Nungesser is native to",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "133": {
+    "prompt": "Patricia Conroy, who holds a citizenship from",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "134": {
+    "prompt": "Murphy Brown was originally aired on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "135": {
+    "prompt": "Henry Villard is a citizen of",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "136": {
+    "prompt": "Holy Name Cathedral, Chicago can be found in",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "137": {
+    "prompt": "In Colombia, they understand",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "138": {
+    "prompt": "Corriere della Sera, from",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "139": {
+    "prompt": "The occupation of David Yost is",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "140": {
+    "prompt": "Lurrie Bell was originally from",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "141": {
+    "prompt": "Crown Airways is based in",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "142": {
+    "prompt": "The Paradise Club debuted on",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "143": {
+    "prompt": "The Late Late Show with Craig Ferguson premieres on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "144": {
+    "prompt": "Darmstadt is located in the country of",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "145": {
+    "prompt": "Marguerite Broquedis, a citizen of",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "146": {
+    "prompt": "The headquarters of Tata Steel Europe is in",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "147": {
+    "prompt": "Luigi Boccherini writes in",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "148": {
+    "prompt": "The original language of The Mistress of the Inn was",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "149": {
+    "prompt": "Ethyl Eichelberger's profession is a",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "150": {
+    "prompt": "The official language of Caslano is",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "151": {
+    "prompt": "Resta in ascolto was written in",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "152": {
+    "prompt": "Pervez Musharraf follows the religion of",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "153": {
+    "prompt": "Kanye West, that originated in",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "154": {
+    "prompt": "In Enlightenment in Spain, an official language is",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "155": {
+    "prompt": "The official religion of Sheikh Bedreddin is",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "156": {
+    "prompt": "Shahab-2 is produced by",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "157": {
+    "prompt": "Spectrum-X was started in",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "158": {
+    "prompt": "The language of The Secret in Their Eyes was",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "159": {
+    "prompt": "Apple III is created by",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "160": {
+    "prompt": "Giovanni Pellielo, who is a citizen of",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "161": {
+    "prompt": "Huangfu Mi writes in",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "162": {
+    "prompt": "The official language of Guam is",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "163": {
+    "prompt": "The profession of Jane Leeves is",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "164": {
+    "prompt": "Irfan Habib, who has a citizenship from",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "165": {
+    "prompt": "Umayyad Caliphate is located in the continent",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "166": {
+    "prompt": "Disney's Hollywood Studios can be found in",
+    "target_token": "Florida",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "167": {
+    "prompt": "The original language of The Register was",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "168": {
+    "prompt": "Bundesautobahn 5 is from",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "169": {
+    "prompt": "The Dennis O'Keefe Show is to debut on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "170": {
+    "prompt": "Bahamas worked in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "171": {
+    "prompt": "William Osler, who has a citizenship from",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "172": {
+    "prompt": "Final Fantasy is created by",
+    "target_token": "Square",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "173": {
+    "prompt": "Novelas ejemplares was developed in",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "174": {
+    "prompt": "Raoul Trujillo works as",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "175": {
+    "prompt": "The headquarter of Boston Bolts is in",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "176": {
+    "prompt": "Peter Mayle writes in",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "177": {
+    "prompt": "La Revista Blanca, that was from",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "178": {
+    "prompt": "Vico Magistretti writes in",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "179": {
+    "prompt": "Elsevier is headquartered in",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "180": {
+    "prompt": "Piero Gobetti speaks the language",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "181": {
+    "prompt": "Bakuman from",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "182": {
+    "prompt": "Vancouver Symphony Orchestra was created in",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "183": {
+    "prompt": "The mother tongue of Miguel de Cervantes is",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "184": {
+    "prompt": "Thomas Erle, a citizen of",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "185": {
+    "prompt": "Nick Raphael originates from",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "186": {
+    "prompt": "Apple A8X was created by",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "187": {
+    "prompt": "The language of La dama boba is",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "188": {
+    "prompt": "The twin city of Mumbai is",
+    "target_token": "London",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "189": {
+    "prompt": "Dniester is in",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "190": {
+    "prompt": "OS X Mavericks, developed by",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "191": {
+    "prompt": "iBooks Author, a product manufactured by",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "192": {
+    "prompt": "Patricia Kohlmann is a citizen of",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "193": {
+    "prompt": "Saladin follows the religion of",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "194": {
+    "prompt": "BBC Red Button owner",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "195": {
+    "prompt": "Di Brandt, who has a citizenship from",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "196": {
+    "prompt": "Crossfire is to debut on",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "197": {
+    "prompt": "Junnar, which is located in",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "198": {
+    "prompt": "Vevo's owner",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "199": {
+    "prompt": "Madame de Montesson expired at",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "200": {
+    "prompt": "Dual! Parallel Trouble Adventure from",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "201": {
+    "prompt": "The law in Donetsk People's Republic declares the language",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "202": {
+    "prompt": "Make Them Suffer was created in",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "203": {
+    "prompt": "Jennifer Hudson speaks the language",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "204": {
+    "prompt": "BRIC, which was named for",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "205": {
+    "prompt": "U.S. Route 129 in Florida is in",
+    "target_token": "Florida",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "206": {
+    "prompt": "Joseph Milner speaks the language",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "207": {
+    "prompt": "The occupation of Dolly Wells is",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "208": {
+    "prompt": "Saaransh was formulated in",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "209": {
+    "prompt": "Rageh Omaar is employed by",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "210": {
+    "prompt": "The law in Netherlands Antilles declares the language",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "211": {
+    "prompt": "Albrecht Weber, who has a citizenship from",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "212": {
+    "prompt": "In Canton of Fribourg, the language spoken is",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "213": {
+    "prompt": "Giacomo Balla speaks the language",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "214": {
+    "prompt": "Yazid I follows the religion of",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "215": {
+    "prompt": "The original language of The Easy Life is",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "216": {
+    "prompt": "Neko Entertainment was formed in",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "217": {
+    "prompt": "Paul Gorguloff's life ended in",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "218": {
+    "prompt": "The language of Re! was",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "219": {
+    "prompt": "Malik al-Ashtar is affiliated with the religion",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "220": {
+    "prompt": "The language used by Edward Yang is",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "221": {
+    "prompt": "iPhone 5, produced by",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "222": {
+    "prompt": "Windows 98 was a product of",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "223": {
+    "prompt": "In La Gomera, an official language is",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "224": {
+    "prompt": "In Exarchate of Ravenna, an official language is",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "225": {
+    "prompt": "Ibn Shihab al-Zuhri is follower of",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "226": {
+    "prompt": "Emmanuelle Devos's profession is an",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "227": {
+    "prompt": "James Naughtie, who is employed by",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "228": {
+    "prompt": "Abdurrahman Wahid is follower of",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "229": {
+    "prompt": "Orkut, by",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "230": {
+    "prompt": "Kenta Fukasaku, who holds a citizenship from",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "231": {
+    "prompt": "Men into Space debuted on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "232": {
+    "prompt": "North Brabant belongs to the continent of",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "233": {
+    "prompt": "Ivan Ivanov-Vano spoke the language",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "234": {
+    "prompt": "The original language of Tolomeo was",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "235": {
+    "prompt": "Isidor Philipp passed away at",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "236": {
+    "prompt": "Francesco Calogero, a citizen of",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "237": {
+    "prompt": "How I Met Your Mother premieres on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "238": {
+    "prompt": "Material World, developed in",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "239": {
+    "prompt": "David Burliuk speaks",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "240": {
+    "prompt": "Annamalai University is in",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "241": {
+    "prompt": "Anahuac National Wildlife Refuge can be found in",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "242": {
+    "prompt": "Lon Chaney speaks",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "243": {
+    "prompt": "Queen Charlotte Mountains is located in the country of",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "244": {
+    "prompt": "Canada Live, which is located in",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "245": {
+    "prompt": "Windows Embedded Compact was created by",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "246": {
+    "prompt": "Afghanistan belongs to the continent of",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "247": {
+    "prompt": "Munzir ibn Sawa Al Tamimi is affiliated with the religion",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "248": {
+    "prompt": "The original language of An Englishman Abroad is",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "249": {
+    "prompt": "Carnegie Vanguard High School is within",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "250": {
+    "prompt": "Mas Canciones is written in",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "251": {
+    "prompt": "INXS, formulated in",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "252": {
+    "prompt": "Calw is located in the country of",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "253": {
+    "prompt": "Internet Explorer 5 was developed by",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "254": {
+    "prompt": "Cutie Honey, that originated in",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "255": {
+    "prompt": "Pierre Laval worked in",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "256": {
+    "prompt": "Gazzola is located in the country of",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "257": {
+    "prompt": "The Lead with Jake Tapper debuted on",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "258": {
+    "prompt": "Adolphe Thiers used to work in",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "259": {
+    "prompt": "In Republic of Bashkortostan, an official language is",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "260": {
+    "prompt": "1960 Summer Olympics, located in",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "261": {
+    "prompt": "Indira Gandhi National Open University belongs to the continent of",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "262": {
+    "prompt": "Margaret Walker passed away in",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "263": {
+    "prompt": "The official language of Lugano is",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "264": {
+    "prompt": "Julia Somerville is employed by",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "265": {
+    "prompt": "Robert Naunton writes in",
+    "target_token": "English",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "266": {
+    "prompt": "Andrea Sartoretti, a citizen of",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "267": {
+    "prompt": "The Galvatrons, formulated in",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "268": {
+    "prompt": "IntelliPoint is a product of",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "269": {
+    "prompt": "The Renovators, formulated in",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "270": {
+    "prompt": "Abu Sufyan ibn Harb follows the religion of",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "271": {
+    "prompt": "The language of The Decameron is",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "272": {
+    "prompt": "Jaishankar holds a citizenship from",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "273": {
+    "prompt": "Pierre Janssen is a citizen of",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "274": {
+    "prompt": "BBC Radio 4 is owned by",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "275": {
+    "prompt": "The location of ice cream cone is",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "276": {
+    "prompt": "Le Bureau was formulated in",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "277": {
+    "prompt": "Borovsky District is located in",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "278": {
+    "prompt": "Chamillionaire, that was created in",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "279": {
+    "prompt": "Victor Varnado originated from",
+    "target_token": "Gary",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "280": {
+    "prompt": "Los Serrano, that was developed in",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "281": {
+    "prompt": "Edguy was developed in",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "282": {
+    "prompt": "Richard Sorge, who is a citizen of",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "283": {
+    "prompt": "Universities Scotland's headquarters are in",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "284": {
+    "prompt": "Where is PAX? It is located in",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "285": {
+    "prompt": "Maximilien Rubel succumbed at",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "286": {
+    "prompt": "Digital Anvil, by",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "287": {
+    "prompt": "Melanie Durrant was born in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "288": {
+    "prompt": "Boris Souvarine died in",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "289": {
+    "prompt": "Eibenstock, located in",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "290": {
+    "prompt": "Stinking Lizaveta originated in",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "291": {
+    "prompt": "Microsoft Office Mobile, created by",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "292": {
+    "prompt": "Companions of the Prophet follows the religion of",
+    "target_token": "Islam",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "293": {
+    "prompt": "David Tree's profession is an",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "294": {
+    "prompt": "Samira Ahmed, who is employed by",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "295": {
+    "prompt": "The law in Ukrainian Soviet Socialist Republic declares the language",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "296": {
+    "prompt": "Kyoto University is located in the country of",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "297": {
+    "prompt": "Windows XP, a product manufactured by",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "298": {
+    "prompt": "My Living Doll premiered on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "299": {
+    "prompt": "South Boston is located in",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "300": {
+    "prompt": "The official language of Equatorial Guinea is",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "301": {
+    "prompt": "Medaram is located in",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "302": {
+    "prompt": "Miami Medical was released on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "303": {
+    "prompt": "The Hat Squad is to debut on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "304": {
+    "prompt": "In Kingdom of Tavolara, an official language is",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "305": {
+    "prompt": "Greta Van Susteren works for",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "306": {
+    "prompt": "Imanol Landeta, who has a citizenship from",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "307": {
+    "prompt": "Kalraj Mishra is a citizen of",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "308": {
+    "prompt": "Bryan Air Force Base is within",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "309": {
+    "prompt": "NTFS was a product of",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "310": {
+    "prompt": "Ultraman Dyna originated in",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "311": {
+    "prompt": "Bing Videos, from",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "312": {
+    "prompt": "Windows Driver Frameworks, a product of",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "313": {
+    "prompt": "The profession of Robert David Hall is",
+    "target_token": "actor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "314": {
+    "prompt": "Ken Loach, of",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "315": {
+    "prompt": "fish and chips, from",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "316": {
+    "prompt": "Gilles Peterson works for",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "317": {
+    "prompt": "Comic High!, created in",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "318": {
+    "prompt": "Greer Lankton died in the city of",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "319": {
+    "prompt": "Logic Pro, a product developed by",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "320": {
+    "prompt": "Bundesautobahn 13 owner",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "321": {
+    "prompt": "Co-Ed Fever debuted on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "322": {
+    "prompt": "BBC Two's owner",
+    "target_token": "BBC",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "323": {
+    "prompt": "Co-operative Commonwealth Federation (Ontario Section) is based in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "324": {
+    "prompt": "Celilo Village, in",
+    "target_token": "Oregon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "325": {
+    "prompt": "Doug Paisley, who holds a citizenship from",
+    "target_token": "Canada",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "326": {
+    "prompt": "National Highway 45 is located in the country of",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "327": {
+    "prompt": "Metropolis of Greater Paris, which has the capital city",
+    "target_token": "Paris",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "328": {
+    "prompt": "Wind River Systems is from",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "329": {
+    "prompt": "Nanni Moretti speaks the language",
+    "target_token": "Italian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "330": {
+    "prompt": "Guadalquivir is located in",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "331": {
+    "prompt": "Vistula is located in the continent",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "332": {
+    "prompt": "Muchalls Castle is in",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "333": {
+    "prompt": "Windows NT 3.1, developed by",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "334": {
+    "prompt": "Delhi Technological University is located in",
+    "target_token": "India",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "335": {
+    "prompt": "Mateo Gil, who is a citizen of",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "336": {
+    "prompt": "Limoncello, that was created in",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "337": {
+    "prompt": "Gabriel Piemonte worked in",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "338": {
+    "prompt": "Phocaea is in",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "339": {
+    "prompt": "Calder Freeway, in",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "340": {
+    "prompt": "The location of Radical War is",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "341": {
+    "prompt": "Pawn Stars debuted on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "342": {
+    "prompt": "Windows Server 2003 is a product of",
+    "target_token": "Microsoft",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "343": {
+    "prompt": "Halchidhoma is located in",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "344": {
+    "prompt": "Robbery Under Arms, that originated in",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "345": {
+    "prompt": "In Autonomous Republic of Crimea, they understand",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "346": {
+    "prompt": "PGM-17 Thor, which was named for",
+    "target_token": "Thor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "347": {
+    "prompt": "Anastasia was written in",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "348": {
+    "prompt": "Intel 80386, created by",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "349": {
+    "prompt": "Kfar Giladi is located in",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "350": {
+    "prompt": "Les Visiteurs, developed in",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "351": {
+    "prompt": "tennis, from",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "352": {
+    "prompt": "DualShock is a product of",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "353": {
+    "prompt": "Imanol Arias, a native",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "354": {
+    "prompt": "Sky Sports News owner",
+    "target_token": "Sky",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "355": {
+    "prompt": "Lake Texana is in",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "356": {
+    "prompt": "Allersberg, in",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "357": {
+    "prompt": "In Alta Verapaz Department, they understand",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "358": {
+    "prompt": "Mac Pro, created by",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "359": {
+    "prompt": "Mainichi Shinbun, that was created in",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "360": {
+    "prompt": "GNU/Linux naming controversy was called after",
+    "target_token": "Linux",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "361": {
+    "prompt": "The law in United Nations declares the language",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "362": {
+    "prompt": "In Organization for Security and Co-operation in Europe, the language spoken is",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "363": {
+    "prompt": "The official language of Mari El Republic is",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "364": {
+    "prompt": "Brain Powerd, formulated in",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "365": {
+    "prompt": "Hotel Sorrento, created in",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "366": {
+    "prompt": "Elizabeth I of England holds a citizenship from",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "367": {
+    "prompt": "Himachal Pradesh is a part of the continent of",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "368": {
+    "prompt": "Final Fantasy V is created by",
+    "target_token": "Square",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "369": {
+    "prompt": "The native language of Ilya Nikolaevich Ulyanov is",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "370": {
+    "prompt": "Boris Asafyev, a native",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "371": {
+    "prompt": "In Byzantine Empire, an official language is",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "372": {
+    "prompt": "Nadezhda Krupskaya, a native",
+    "target_token": "Russian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "373": {
+    "prompt": "Dent Island Light, located in",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "374": {
+    "prompt": "Zeev Rechter, who has a citizenship from",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "375": {
+    "prompt": "Dino Cazares writes in",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "376": {
+    "prompt": "Ma'an Governorate is located in",
+    "target_token": "Jordan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "377": {
+    "prompt": "Disk Utility was created by",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "378": {
+    "prompt": "James Forten originates from",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "379": {
+    "prompt": "Core 2 was created by",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "380": {
+    "prompt": "The original language of The Magic Flute was",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "381": {
+    "prompt": "Chambal River is a part of the continent of",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "382": {
+    "prompt": "Luray Caverns is in",
+    "target_token": "Virginia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "383": {
+    "prompt": "Surimi, that was from",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "384": {
+    "prompt": "The official religion of Albanians is",
+    "target_token": "Christian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "385": {
+    "prompt": "The Law & Harry McGraw premiered on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "386": {
+    "prompt": "National Barn Dance is in",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "387": {
+    "prompt": "Ketama, developed in",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "388": {
+    "prompt": "The Millers premiered on",
+    "target_token": "CBS",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "389": {
+    "prompt": "Bild was created in",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "390": {
+    "prompt": "Darryl Kile expired at",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "391": {
+    "prompt": "Floriano Peixoto, who is a citizen of",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "392": {
+    "prompt": "Panoramio is from",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "393": {
+    "prompt": "Victoria Land, which was named for",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "394": {
+    "prompt": "Atlanta International Documentary Film Festival can be found in",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "395": {
+    "prompt": "Edu Lobo, a citizen of",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "396": {
+    "prompt": "Pontecorvo, located in",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "397": {
+    "prompt": "Areva is from",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "398": {
+    "prompt": "About Anglia, created in",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "399": {
+    "prompt": "Mike Huckabee originates from",
+    "target_token": "Hope",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "400": {
+    "prompt": "Nam June Paik expired at",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "401": {
+    "prompt": "Acolman Municipality is located in the country of",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "402": {
+    "prompt": "Mount San Antonio can be found in",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "403": {
+    "prompt": "Oregon Route 8 is within",
+    "target_token": "Oregon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "404": {
+    "prompt": "Turkey national rugby union team is located in",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "405": {
+    "prompt": "Takahiro Fujimoto holds a citizenship from",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "406": {
+    "prompt": "Japan, in",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "407": {
+    "prompt": "Miguel Barbachano, who has a citizenship from",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "408": {
+    "prompt": "Liverpool Range is located in",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "409": {
+    "prompt": "Nova Friburgo, which is located in",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "410": {
+    "prompt": "Jean Bobet has a citizenship from",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "411": {
+    "prompt": "9K720 Iskander was created in the country of",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "412": {
+    "prompt": "Monte San Giorgio is located in the continent",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "413": {
+    "prompt": "Sydney Peace Prize is located in",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "414": {
+    "prompt": "Francisco Goya, who has a citizenship from",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "415": {
+    "prompt": "SCE Studio Liverpool, from",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "416": {
+    "prompt": "Carl Sigismund Kunth speaks",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "417": {
+    "prompt": "Google Earth was developed by",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "418": {
+    "prompt": "Perfil is written in",
+    "target_token": "Spanish",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "419": {
+    "prompt": "Hundred Years' War is located in",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "420": {
+    "prompt": "Kid British started in",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "421": {
+    "prompt": "McFadden & Whitehead, founded in",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "422": {
+    "prompt": "Madeinusa originated in",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "423": {
+    "prompt": "Thomas Barbour passed away at",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "424": {
+    "prompt": "home counties is within",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "425": {
+    "prompt": "Weekly Young Sunday from",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "426": {
+    "prompt": "Mac OS X Lion was developed by",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "427": {
+    "prompt": "Sony Interactive Entertainment, by",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "428": {
+    "prompt": "Pentium III, from",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "429": {
+    "prompt": "Scheldt, in",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "430": {
+    "prompt": "Yokohama International School, which is located in",
+    "target_token": "Japan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "431": {
+    "prompt": "Space Shuttle Columbia disaster is located in",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "432": {
+    "prompt": "Texas Rising debuted on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "433": {
+    "prompt": "KiKa, which is located in",
+    "target_token": "Germany",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "434": {
+    "prompt": "Alsace-Lorraine, in",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "435": {
+    "prompt": "Andreas Karkavitsas spoke the language",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "436": {
+    "prompt": "Sayyed Imam Al-Sharif holds a citizenship from",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "437": {
+    "prompt": "Canjuers is located in the country of",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "438": {
+    "prompt": "Gmail, a product created by",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "439": {
+    "prompt": "Mac OS X Panther was created by",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "440": {
+    "prompt": "The La De Das was formulated in",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "441": {
+    "prompt": "Sant'Andrea al Quirinale is named for",
+    "target_token": "Andrew",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "442": {
+    "prompt": "Swifts Creek is located in",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "443": {
+    "prompt": "Operation Pillar of Cloud is located in",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "444": {
+    "prompt": "Giorgi Melikishvili's expertise is",
+    "target_token": "history",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "445": {
+    "prompt": "Eastern Bloc is located in",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "446": {
+    "prompt": "William H. Seward was native to",
+    "target_token": "Florida",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "447": {
+    "prompt": "Pune is in",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "448": {
+    "prompt": "Nie Weiping, a native",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "449": {
+    "prompt": "Rankuh District, in",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "450": {
+    "prompt": "pesto, that was from",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "451": {
+    "prompt": "Shahdol district is a part of the continent of",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "452": {
+    "prompt": "James VII and II, who has a citizenship from",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "453": {
+    "prompt": "Marcos Balter has a citizenship from",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "454": {
+    "prompt": "Khasavyurt is located in the country of",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "455": {
+    "prompt": "That Certain Something, created in",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "456": {
+    "prompt": "Chamarajanagar district belongs to the continent of",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "457": {
+    "prompt": "Joe Jamail originated from",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "458": {
+    "prompt": "Dragonette was formed in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "459": {
+    "prompt": "Philadelphia International Airport is named for",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "460": {
+    "prompt": "Eddy Cue is employed by",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "461": {
+    "prompt": "Entente Florale is located in the continent",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "462": {
+    "prompt": "Ateneo de Madrid, in",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "463": {
+    "prompt": "Apple Thunderbolt Display, a product manufactured by",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "464": {
+    "prompt": "Nathan Appleton worked in the city of",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "465": {
+    "prompt": "Science's expertise is",
+    "target_token": "science",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "466": {
+    "prompt": "Photo Booth, a product of",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "467": {
+    "prompt": "Crash Investigation Unit was from",
+    "target_token": "Australia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "468": {
+    "prompt": "Clan Cumming is located in",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "469": {
+    "prompt": "iCloud is created by",
+    "target_token": "Apple",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "470": {
+    "prompt": "Redonne-moi, that was created in",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "471": {
+    "prompt": "Zhang Zhidong speaks the language",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "472": {
+    "prompt": "Selig Polyscope Company, that originated in",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "473": {
+    "prompt": "Shahab-1 is produced by",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "474": {
+    "prompt": "agglomeration community is located in the country of",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "475": {
+    "prompt": "Piasecki Helicopter Corporation was founded in",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "476": {
+    "prompt": "European Union is located in the continent",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "477": {
+    "prompt": "Boundary Cone, in",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "478": {
+    "prompt": "Carpentras, in",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "479": {
+    "prompt": "Google Contacts, a product manufactured by",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "480": {
+    "prompt": "EDP Renewables North America's headquarters are in",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "481": {
+    "prompt": "Neryungri is located in the country of",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "482": {
+    "prompt": "Francis Palmer Smith worked in the city of",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "483": {
+    "prompt": "Android Runtime, developed by",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "484": {
+    "prompt": "Michaela Pereira is employed by",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "485": {
+    "prompt": "Karl Lachmann speaks",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "486": {
+    "prompt": "Grossglockner is located in the continent",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "487": {
+    "prompt": "Pachomius the Great succumbed at",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "488": {
+    "prompt": "Mohammad Gharib holds a citizenship from",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "489": {
+    "prompt": "Airship Italia, which was named after",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "490": {
+    "prompt": "Moldova is located in the continent",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "491": {
+    "prompt": "Where is Sinagua? It is located in",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "492": {
+    "prompt": "River Clyde is in",
+    "target_token": "Europe",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "493": {
+    "prompt": "Argo Tea's headquarters are in",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "494": {
+    "prompt": "Bloodshot Records, created in",
+    "target_token": "Chicago",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "495": {
+    "prompt": "Co-operative College, whose headquarters are in",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "496": {
+    "prompt": "MiniDisc was a product of",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "497": {
+    "prompt": "The location of 1996 Summer Olympics is",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "498": {
+    "prompt": "fourme d'Ambert, that was created in",
+    "target_token": "France",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "499": {
+    "prompt": "Lupo Alberto was created in",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "500": {
+    "prompt": "The official language of Bernese Oberland is",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "501": {
+    "prompt": "Kindle Fire, created by",
+    "target_token": "Amazon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "502": {
+    "prompt": "Shire of Mount Alexander is in",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "503": {
+    "prompt": "World Youth Day 2002 is located in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "504": {
+    "prompt": "Gadag district belongs to the continent of",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "505": {
+    "prompt": "The headquarters of Reading Company is in",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "506": {
+    "prompt": "German Wikipedia is written in",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "507": {
+    "prompt": "Swann Memorial Fountain is located in",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "508": {
+    "prompt": "Paul Otellini, of",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "509": {
+    "prompt": "Google Ads is owned by",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "510": {
+    "prompt": "Chrome OS, created by",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "511": {
+    "prompt": "Sadeq Larijani has a citizenship from",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "512": {
+    "prompt": "Lancashire wrestling from",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "513": {
+    "prompt": "Grenache Blanc, that originated in",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "514": {
+    "prompt": "Where is Boston Massacre? It is located in",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "515": {
+    "prompt": "Liquor Control Board of Ontario's headquarters are in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "516": {
+    "prompt": "Sakarya Province is located in the country of",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "517": {
+    "prompt": "Narman is located in",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "518": {
+    "prompt": "Samuel Schmid worked in the city of",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "519": {
+    "prompt": "Cool & Dre was started in",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "520": {
+    "prompt": "Turgai River belongs to the continent of",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "521": {
+    "prompt": "The official language of Canton of Lucerne is",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "522": {
+    "prompt": "Life Is Beautiful, that originated in",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "523": {
+    "prompt": "Propertius speaks",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "524": {
+    "prompt": "Johann Gerhard speaks",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "525": {
+    "prompt": "Dogfights debuted on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "526": {
+    "prompt": "Elise Broach originates from",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "527": {
+    "prompt": "White Stag sign is located in",
+    "target_token": "Oregon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "528": {
+    "prompt": "Google Person Finder is owned by",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "529": {
+    "prompt": "Fareed Zakaria GPS is to debut on",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "530": {
+    "prompt": "Tursi is located in",
+    "target_token": "Italy",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "531": {
+    "prompt": "Yangtze is in",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "532": {
+    "prompt": "thorium, which is called after",
+    "target_token": "Thor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "533": {
+    "prompt": "James Nabrit originated from",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "534": {
+    "prompt": "Downtown Houston, in",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "535": {
+    "prompt": "Victoria and Albert Museum, which is named after",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "536": {
+    "prompt": "Diablo Canyon Power Plant is located in",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "537": {
+    "prompt": "Registro is located in",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "538": {
+    "prompt": "Halle Berry's profession is a",
+    "target_token": "model",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "539": {
+    "prompt": "Slaithwaite is located in",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "540": {
+    "prompt": "Hugo von Hofmannsthal, a native",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "541": {
+    "prompt": "Chukotka Autonomous Okrug is in",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "542": {
+    "prompt": "Citizens Bank Park owner",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "543": {
+    "prompt": "Man Man, that was started in",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "544": {
+    "prompt": "Bilbao is located in the country of",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "545": {
+    "prompt": "table tennis was formulated in",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "546": {
+    "prompt": "Karun is a part of the continent of",
+    "target_token": "Asia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "547": {
+    "prompt": "The location of Peterloo Massacre is",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "548": {
+    "prompt": "Google Now is a product of",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "549": {
+    "prompt": "Isle of Raasay is in",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "550": {
+    "prompt": "Sony Alpha 99, created by",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "551": {
+    "prompt": "Bilohirsk Raion, in",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "552": {
+    "prompt": "Nova Scotia was named for",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "553": {
+    "prompt": "Tulpan, developed in",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "554": {
+    "prompt": "Robert Beaser is native to",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "555": {
+    "prompt": "The headquarter of David McKay Publications is located in",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "556": {
+    "prompt": "B.o.B worked in",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "557": {
+    "prompt": "Mundo Obrero originated in",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "558": {
+    "prompt": "Christoph Willibald von Gluck writes in",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "559": {
+    "prompt": "The law in Macau declares the language",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "560": {
+    "prompt": "Where is Federal Palace of Switzerland? It is located in",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "561": {
+    "prompt": "Lucentum, located in",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "562": {
+    "prompt": "Virgil is a native speaker of",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "563": {
+    "prompt": "Which position does Frank Mobley play? They play as",
+    "target_token": "forward",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "564": {
+    "prompt": "Leelanau Peninsula is located in",
+    "target_token": "Michigan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "565": {
+    "prompt": "The language of Greek name was",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "566": {
+    "prompt": "SteadyShot, created by",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "567": {
+    "prompt": "Phoenix Sky Harbor International Airport, by",
+    "target_token": "Phoenix",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "568": {
+    "prompt": "Camille Pin was originally from",
+    "target_token": "Nice",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "569": {
+    "prompt": "In British Hong Kong, they understand",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "570": {
+    "prompt": "Assis Chateaubriand, who holds a citizenship from",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "571": {
+    "prompt": "Intel Pentium Dual-Core was created by",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "572": {
+    "prompt": "Urban Outfitters was formed in",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "573": {
+    "prompt": "Paulo Pires's profession is an",
+    "target_token": "model",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "574": {
+    "prompt": "Banesh Rural District is located in",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "575": {
+    "prompt": "Earth ellipsoid, named for",
+    "target_token": "Earth",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "576": {
+    "prompt": "Delmarva Peninsula, named after",
+    "target_token": "Virginia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "577": {
+    "prompt": "Sears Point is in",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "578": {
+    "prompt": "selenium, which is named for",
+    "target_token": "Moon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "579": {
+    "prompt": "Brothers Past, that was formed in",
+    "target_token": "Philadelphia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "580": {
+    "prompt": "Hermanas, formulated in",
+    "target_token": "Spain",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "581": {
+    "prompt": "The headquarter of Boston Market is located in",
+    "target_token": "Golden",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "582": {
+    "prompt": "Bank of England, which was named after",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "583": {
+    "prompt": "The headquarter of RioCan Real Estate Investment Trust is in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "584": {
+    "prompt": "Amazon Simple Queue Service was a product of",
+    "target_token": "Amazon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "585": {
+    "prompt": "Thiago Soares Alves has a citizenship from",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "586": {
+    "prompt": "Saiga-12, that was developed in",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "587": {
+    "prompt": "Google Patents, from",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "588": {
+    "prompt": "The law in Basel-Landschaft declares the language",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "589": {
+    "prompt": "Scottish Handball Association, whose headquarters are in",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "590": {
+    "prompt": "The Real Kids, founded in",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "591": {
+    "prompt": "Yorkfield is a product of",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "592": {
+    "prompt": "English Channel, which was named after",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "593": {
+    "prompt": "The headquarter of Nortel is in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "594": {
+    "prompt": "Boston and Maine Corporation is headquartered in",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "595": {
+    "prompt": "Animator.ru, created in",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "596": {
+    "prompt": "Gray Television, whose headquarters are in",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "597": {
+    "prompt": "Texas State Highway 170 is within",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "598": {
+    "prompt": "Where is South by Southwest? It is located in",
+    "target_token": "Austin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "599": {
+    "prompt": "Friedrich Georg Wilhelm von Struve speaks",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "600": {
+    "prompt": "Hugh Roy Cullen died at",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "601": {
+    "prompt": "Wars of the Three Kingdoms is in",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "602": {
+    "prompt": "Arthur Harden originates from",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "603": {
+    "prompt": "Touraj Daryaee holds a citizenship from",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "604": {
+    "prompt": "Sky2 is from",
+    "target_token": "Sky",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "605": {
+    "prompt": "In Shanghai Cooperation Organisation, the language spoken is",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "606": {
+    "prompt": "WebP Lossless is created by",
+    "target_token": "Google",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "607": {
+    "prompt": "Anna Harrison expired at",
+    "target_token": "Ohio",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "608": {
+    "prompt": "Julius Eichberg passed away in",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "609": {
+    "prompt": "Samuel Griswold Goodrich worked in",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "610": {
+    "prompt": "Henrique Maximiano Coelho Neto is a citizen of",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "611": {
+    "prompt": "Kahrizak, located in",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "612": {
+    "prompt": "Allison Nelson worked in",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "613": {
+    "prompt": "Jonathan Kozol was employed in",
+    "target_token": "Boston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "614": {
+    "prompt": "Bionz is created by",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "615": {
+    "prompt": "Davan, in",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "616": {
+    "prompt": "The headquarter of CPP Investment Board is located in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "617": {
+    "prompt": "San Diego High School is located in",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "618": {
+    "prompt": "Alexandre Darracq specializes in",
+    "target_token": "car",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "619": {
+    "prompt": "U.S. Route 20 in Oregon is within",
+    "target_token": "Oregon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "620": {
+    "prompt": "Mahnaz Afkhami has a citizenship from",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "621": {
+    "prompt": "Sky Cinema's owner",
+    "target_token": "Sky",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "622": {
+    "prompt": "In Kingdom of Asturias, the language spoken is",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "623": {
+    "prompt": "In Luxembourg, the language spoken is",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "624": {
+    "prompt": "Ancient Aliens premieres on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "625": {
+    "prompt": "Ji Kang speaks the language",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "626": {
+    "prompt": "John King, USA debuted on",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "627": {
+    "prompt": "Lufkin is within",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "628": {
+    "prompt": "Marathon Oil was started in",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "629": {
+    "prompt": "Ilam Province is located in",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "630": {
+    "prompt": "Jiang Qinqin spoke the language",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "631": {
+    "prompt": "Sacramento Convention Center Complex can be found in",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "632": {
+    "prompt": "The headquarter of FUN Technologies is located in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "633": {
+    "prompt": "The language of De re metallica is",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "634": {
+    "prompt": "Scott Lawson, who holds a citizenship from",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "635": {
+    "prompt": "Los Angeles Memorial Coliseum is owned by",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "636": {
+    "prompt": "Canada Life Financial is based in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "637": {
+    "prompt": "Tommy Taylor plays as",
+    "target_token": "forward",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "638": {
+    "prompt": "Victoria Inner Harbour Airport is named for",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "639": {
+    "prompt": "Alan Carvalho, who holds a citizenship from",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "640": {
+    "prompt": "Otterbein University is located in",
+    "target_token": "Ohio",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "641": {
+    "prompt": "Mirbag-e Shomali Rural District is located in the country of",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "642": {
+    "prompt": "Adlertag is in",
+    "target_token": "England",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "643": {
+    "prompt": "Sallust writes in",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "644": {
+    "prompt": "The language used by Ch'ien Mu is",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "645": {
+    "prompt": "Chris Cuomo, who works for",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "646": {
+    "prompt": "Billy Ward and His Dominoes, that is represented by",
+    "target_token": "Federal",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "647": {
+    "prompt": "Gulf Coast of the United States can be found in",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "648": {
+    "prompt": "Saint Petersburg, named after",
+    "target_token": "Peter",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "649": {
+    "prompt": "Sky Witness is from",
+    "target_token": "Sky",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "650": {
+    "prompt": "The original language of Commentarii de Bello Gallico is",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "651": {
+    "prompt": "Gunter Annex, in",
+    "target_token": "Alabama",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "652": {
+    "prompt": "The official language of Austria is",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "653": {
+    "prompt": "Java coffee, which is called after",
+    "target_token": "Java",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "654": {
+    "prompt": "The headquarter of PGi is in",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "655": {
+    "prompt": "Tora Arhizoun Ta Dyskola is written in",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "656": {
+    "prompt": "Shardad Rohani, who holds a citizenship from",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "657": {
+    "prompt": "Hydro One, created in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "658": {
+    "prompt": "The headquarters of 9 Story Media Group is in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "659": {
+    "prompt": "Organized Noize was started in",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "660": {
+    "prompt": "Saint Petersburg is a twin city of",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "661": {
+    "prompt": "Osler, Hoskin & Harcourt, whose headquarters are in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "662": {
+    "prompt": "The Rural Alberta Advantage, that was formed in",
+    "target_token": "Toronto",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "663": {
+    "prompt": "Loy Yang Power Station, in",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "664": {
+    "prompt": "American Pickers premieres on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "665": {
+    "prompt": "Bajo la misma piel, that was formulated in",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "666": {
+    "prompt": "In Sovereign Military Order of Malta, the language spoken is",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "667": {
+    "prompt": "Lake Victoria, called after",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "668": {
+    "prompt": "VTB Capital, in",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "669": {
+    "prompt": "Ful medames from",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "670": {
+    "prompt": "Brian Krzanich, of",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "671": {
+    "prompt": "Radical Axis was created in",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "672": {
+    "prompt": "The law in West Germany declares the language",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "673": {
+    "prompt": "The original language of Taobao was",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "674": {
+    "prompt": "John Linder was employed in",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "675": {
+    "prompt": "Dolomiten is written in",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "676": {
+    "prompt": "Mount St Gwinear can be found in",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "677": {
+    "prompt": "Ticho House is located in",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "678": {
+    "prompt": "ELP Communications's owner",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "679": {
+    "prompt": "Tom McCall Waterfront Park is in",
+    "target_token": "Oregon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "680": {
+    "prompt": "Ust-Katav, which is located in",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "681": {
+    "prompt": "The location of Russian Civil War is",
+    "target_token": "Iran",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "682": {
+    "prompt": "Michigan meridian is within",
+    "target_token": "Michigan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "683": {
+    "prompt": "Nizhneserginsky District is located in the country of",
+    "target_token": "Russia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "684": {
+    "prompt": "Intel MCS-48, produced by",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "685": {
+    "prompt": "Georgios Lassanis speaks the language",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "686": {
+    "prompt": "The Weather Channel, whose headquarters are in",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "687": {
+    "prompt": "Sony SLT camera is developed by",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "688": {
+    "prompt": "Kathryn Casey worked in the city of",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "689": {
+    "prompt": "Ancient Discoveries premieres on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "690": {
+    "prompt": "Crystal Renn was originally from",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "691": {
+    "prompt": "SonicStage was created by",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "692": {
+    "prompt": "The language of Tusculanae Disputationes is",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "693": {
+    "prompt": "James Brown recorded for",
+    "target_token": "Federal",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "694": {
+    "prompt": "Gloria Estefan formed in",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "695": {
+    "prompt": "Kenny Rogers was born in",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "696": {
+    "prompt": "The Flying Dutchman was written in",
+    "target_token": "German",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "697": {
+    "prompt": "SunTrust Banks, whose headquarters are in",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "698": {
+    "prompt": "Scotland Today was created in the country of",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "699": {
+    "prompt": "Armenians in Turkey has a citizenship from",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "700": {
+    "prompt": "Columbia TriStar Motion Picture Group, by",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "701": {
+    "prompt": "Indiana State Museum owner",
+    "target_token": "Indiana",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "702": {
+    "prompt": "Trey Moore is originally from",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "703": {
+    "prompt": "Maria Elena Kiriakou speaks the language",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "704": {
+    "prompt": "Arben Minga, the",
+    "target_token": "forward",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "705": {
+    "prompt": "The language of The Reckoning of Time is",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "706": {
+    "prompt": "Deep Crimson was created in the country of",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "707": {
+    "prompt": "Blake Mills is native to",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "708": {
+    "prompt": "Lakewood Church is within",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "709": {
+    "prompt": "Papantla, located in",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "710": {
+    "prompt": "Rubens Barrichello holds a citizenship from",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "711": {
+    "prompt": "Omni Coliseum is owned by",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "712": {
+    "prompt": "Vitruvius, speaker of",
+    "target_token": "Latin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "713": {
+    "prompt": "The mother tongue of Akira Kurosawa is",
+    "target_token": "Japanese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "714": {
+    "prompt": "Joseph Whitworth worked in the city of",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "715": {
+    "prompt": "In ASEAN, an official language is",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "716": {
+    "prompt": "Amstrad is owned by",
+    "target_token": "Sky",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "717": {
+    "prompt": "Clang was created by",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "718": {
+    "prompt": "Brazos Wind Farm is within",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "719": {
+    "prompt": "Bernardo Reyes has a citizenship from",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "720": {
+    "prompt": "Intel Quark, created by",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "721": {
+    "prompt": "The location of Yaqui Uprising is",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "722": {
+    "prompt": "Golden Gate National Recreation Area is located in",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "723": {
+    "prompt": "The language of Celebrated Cases of Judge Dee was",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "724": {
+    "prompt": "Toora is located in",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "725": {
+    "prompt": "art school's domain of activity is",
+    "target_token": "art",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "726": {
+    "prompt": "Isser Harel, who is a citizen of",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "727": {
+    "prompt": "Hatfields & McCoys is to debut on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "728": {
+    "prompt": "Halchidhoma is in",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "729": {
+    "prompt": "Zarqa Governorate is within",
+    "target_token": "Jordan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "730": {
+    "prompt": "Higher Technological Institute (Egypt), located in",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "731": {
+    "prompt": "BRIC, named after",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "732": {
+    "prompt": "Royal Scottish Society of Painters in Watercolour is located in",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "733": {
+    "prompt": "Ice Road Truckers was released on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "734": {
+    "prompt": "Albert Einstein took up work in",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "735": {
+    "prompt": "Auchenharvie Castle is located in",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "736": {
+    "prompt": "RuPaul, that was started in",
+    "target_token": "Atlanta",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "737": {
+    "prompt": "808 State, that was started in",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "738": {
+    "prompt": "Joao Plata, who plays the position",
+    "target_token": "forward",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "739": {
+    "prompt": "Rolls-Royce was formed in",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "740": {
+    "prompt": "Pentium II was developed by",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "741": {
+    "prompt": "Intel Core, a product of",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "742": {
+    "prompt": "The official language of Kingdom of Jerusalem is",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "743": {
+    "prompt": "O Quatrilho from",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "744": {
+    "prompt": "Dilma Rousseff, a citizen of",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "745": {
+    "prompt": "Taksim Military Barracks, located in",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "746": {
+    "prompt": "Camp Mabry is in",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "747": {
+    "prompt": "NewsNight with Aaron Brown was released on",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "748": {
+    "prompt": "Sufganiyah from",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "749": {
+    "prompt": "Hank Aaron Stadium owner",
+    "target_token": "Mobile",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "750": {
+    "prompt": "Growler Valley can be found in",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "751": {
+    "prompt": "Christ Church Cathedral, Indianapolis can be found in",
+    "target_token": "Indiana",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "752": {
+    "prompt": "Celebridade from",
+    "target_token": "Brazil",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "753": {
+    "prompt": "North Central Texas College is located in",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "754": {
+    "prompt": "North Berwick, in",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "755": {
+    "prompt": "Amazon Kindle is from",
+    "target_token": "Amazon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "756": {
+    "prompt": "Elisabeth Kopp worked in the city of",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "757": {
+    "prompt": "Sony E-mount, developed by",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "758": {
+    "prompt": "rutile, called after",
+    "target_token": "red",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "759": {
+    "prompt": "Chris Squire belongs to the organization of",
+    "target_token": "Yes",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "760": {
+    "prompt": "Totopo, that was developed in",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "761": {
+    "prompt": "The music label that is representing Rachael Lampa is",
+    "target_token": "Word",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "762": {
+    "prompt": "System Controller Hub, developed by",
+    "target_token": "Intel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "763": {
+    "prompt": "Insight Film Festival is in",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "764": {
+    "prompt": "Ivry Gitlis, who holds a citizenship from",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "765": {
+    "prompt": "The Distractions, that was formed in",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "766": {
+    "prompt": "Paul Mounsey is originally from",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "767": {
+    "prompt": "Joseph McMoneagle originates from",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "768": {
+    "prompt": "Sugarloaf Key, in",
+    "target_token": "Florida",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "769": {
+    "prompt": "Colorado River Indian Tribes is in",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "770": {
+    "prompt": "Jimmy Doolittle passed away in",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "771": {
+    "prompt": "Stack Waddy, that was created in",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "772": {
+    "prompt": "Giuseppe Motta took up work in",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "773": {
+    "prompt": "Modern Marvels is to debut on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "774": {
+    "prompt": "Burger King, created in",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "775": {
+    "prompt": "Magen David Adom is based in",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "776": {
+    "prompt": "The profession of Vic Chou is",
+    "target_token": "model",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "777": {
+    "prompt": "Rancho Petaluma Adobe, by",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "778": {
+    "prompt": "What is the twin city of Cairo? It is",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "779": {
+    "prompt": "BLS AG originated in",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "780": {
+    "prompt": "Tyabb is located in",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "781": {
+    "prompt": "Alabama Theatre is located in",
+    "target_token": "Alabama",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "782": {
+    "prompt": "California Citrus State Historic Park, in",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "783": {
+    "prompt": "The City Harmonic formed in",
+    "target_token": "Hamilton",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "784": {
+    "prompt": "Family Life Radio can be found in",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "785": {
+    "prompt": "The language of The Vagrant is",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "786": {
+    "prompt": "Thomas Walsingham passed away at",
+    "target_token": "Kent",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "787": {
+    "prompt": "Hang Seng Bank, whose headquarters are in",
+    "target_token": "Central",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "788": {
+    "prompt": "Carrizo Plain is within",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "789": {
+    "prompt": "The official language of European Union is",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "790": {
+    "prompt": "Berchtold Haller passed away in",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "791": {
+    "prompt": "Working for a Nuclear Free City formed in",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "792": {
+    "prompt": "Victoria Avenue Bridge, which was named for",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "793": {
+    "prompt": "Covelli Centre, in",
+    "target_token": "Ohio",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "794": {
+    "prompt": "Marlene Favela, who has a citizenship from",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "795": {
+    "prompt": "Piers Morgan Tonight debuted on",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "796": {
+    "prompt": "ornithology works in the area of",
+    "target_token": "bird",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "797": {
+    "prompt": "The language used by Xiong Qinglai is",
+    "target_token": "Chinese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "798": {
+    "prompt": "CNN Presents was released on",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "799": {
+    "prompt": "Sony Crackle is owned by",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "800": {
+    "prompt": "Stelco is headquartered in",
+    "target_token": "Hamilton",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "801": {
+    "prompt": "Alexandros Rizos Rangavis, speaker of",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "802": {
+    "prompt": "Colony of Vancouver Island, which has the capital city",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "803": {
+    "prompt": "CNN Heroes premieres on",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "804": {
+    "prompt": "The official religion of Heidi Baker is",
+    "target_token": "Christian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "805": {
+    "prompt": "Amazon Echo is developed by",
+    "target_token": "Amazon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "806": {
+    "prompt": "Hartley County, in",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "807": {
+    "prompt": "San Antonio River, in",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "808": {
+    "prompt": "Lot-et-Garonne, called after",
+    "target_token": "Lot",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "809": {
+    "prompt": "Papa Roach was founded in",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "810": {
+    "prompt": "Sam Hill Memorial Bridge, in",
+    "target_token": "Oregon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "811": {
+    "prompt": "DJ Screw died in the city of",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "812": {
+    "prompt": "Wizard Sleeve was created in",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "813": {
+    "prompt": "In the Arena premieres on",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "814": {
+    "prompt": "Kanpur is a twin city of",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "815": {
+    "prompt": "Sky Sports Racing is from",
+    "target_token": "Sky",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "816": {
+    "prompt": "Sidewalk Prophets label :",
+    "target_token": "Word",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "817": {
+    "prompt": "Alex Sirvent, a citizen of",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "818": {
+    "prompt": "Gainesville Municipal Airport is located in",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "819": {
+    "prompt": "Bolvadin is located in",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "820": {
+    "prompt": "Amazon Web Services's owner",
+    "target_token": "Amazon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "821": {
+    "prompt": "San Pietro in Montorio, which is called after",
+    "target_token": "Peter",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "822": {
+    "prompt": "Fernando Torres plays as",
+    "target_token": "forward",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "823": {
+    "prompt": "The original language of Greek Wikipedia is",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "824": {
+    "prompt": "The Men Who Built America was originally aired on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "825": {
+    "prompt": "The twin city of Ankara is",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "826": {
+    "prompt": "Sony Pictures's owner",
+    "target_token": "Sony",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "827": {
+    "prompt": "Harold Lever, Baron Lever of Manchester was born in",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "828": {
+    "prompt": "Downtown Orlando is in",
+    "target_token": "Florida",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "829": {
+    "prompt": "Ana Guevara, who has a citizenship from",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "830": {
+    "prompt": "Juan O'Gorman holds a citizenship from",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "831": {
+    "prompt": "Starting Point was released on",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "832": {
+    "prompt": "The native language of Panagiotis Lafazanis is",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "833": {
+    "prompt": "Markus Feldmann worked in the city of",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "834": {
+    "prompt": "saltire was called after",
+    "target_token": "Andrew",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "835": {
+    "prompt": "KKBQ, in",
+    "target_token": "Texas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "836": {
+    "prompt": "Slowdive originated in",
+    "target_token": "Reading",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "837": {
+    "prompt": "Enrique Llanes holds a citizenship from",
+    "target_token": "Mexico",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "838": {
+    "prompt": "Florida International University is named for",
+    "target_token": "Florida",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "839": {
+    "prompt": "Anschutz Medical Campus can be found in",
+    "target_token": "Colorado",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "840": {
+    "prompt": "Grace Sherwood was originally from",
+    "target_token": "Virginia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "841": {
+    "prompt": "Christmas Island, which was called after",
+    "target_token": "Christmas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "842": {
+    "prompt": "Bee Gees that was founded in",
+    "target_token": "Manchester",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "843": {
+    "prompt": "Sky Sports owner",
+    "target_token": "Sky",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "844": {
+    "prompt": "Goat Rock Beach, by",
+    "target_token": "California",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "845": {
+    "prompt": "Uluburun shipwreck's owner",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "846": {
+    "prompt": "molybdenum, which is named for",
+    "target_token": "lead",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "847": {
+    "prompt": "Joe Bishop passed away in",
+    "target_token": "Houston",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "848": {
+    "prompt": "Ovadia Yosef, who is a citizen of",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "849": {
+    "prompt": "M-140, in",
+    "target_token": "Michigan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "850": {
+    "prompt": "Geelong Art Gallery is located in",
+    "target_token": "Victoria",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "851": {
+    "prompt": "The headquarter of Ladenburg Thalmann is in",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "852": {
+    "prompt": "Ohio State Route 4 can be found in",
+    "target_token": "Ohio",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "853": {
+    "prompt": "William Camden's domain of work is",
+    "target_token": "history",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "854": {
+    "prompt": "Kharga Oasis is located in the country of",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "855": {
+    "prompt": "Blaine Willenborg was born in",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "856": {
+    "prompt": "Gloria Estefan found employment in",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "857": {
+    "prompt": "Istanbul Airport, which is located in",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "858": {
+    "prompt": "Alexander Andreyevich Baranov expired at",
+    "target_token": "Java",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "859": {
+    "prompt": "Bern Minster is in",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "860": {
+    "prompt": "Reliable Sources is to debut on",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "861": {
+    "prompt": "Bilecik Province, which is located in",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "862": {
+    "prompt": "Planet Soul was created in",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "863": {
+    "prompt": "Amazon S3, by",
+    "target_token": "Amazon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "864": {
+    "prompt": "Al-Masudi's area of work is",
+    "target_token": "history",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "865": {
+    "prompt": "Dead End Street, created in",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "866": {
+    "prompt": "Meredith Andrews, released by",
+    "target_token": "Word",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "867": {
+    "prompt": "Bologna Cathedral, which is named for",
+    "target_token": "Peter",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "868": {
+    "prompt": "Manila is a twin city of",
+    "target_token": "Nice",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "869": {
+    "prompt": "Larry King Live debuted on",
+    "target_token": "CNN",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "870": {
+    "prompt": "Amazon Fire TV, a product manufactured by",
+    "target_token": "Amazon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "871": {
+    "prompt": "The language of Pos Allazei O Kairos was",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "872": {
+    "prompt": "Wat Tyler was born in",
+    "target_token": "Kent",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "873": {
+    "prompt": "The domain of work of Arnold Hermann Ludwig Heeren is",
+    "target_token": "history",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "874": {
+    "prompt": "Grand Canyon National Park Airport is in",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "875": {
+    "prompt": "Jennifer Granholm took up work in",
+    "target_token": "Michigan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "876": {
+    "prompt": "The expertise of Granius Licinianus is",
+    "target_token": "history",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "877": {
+    "prompt": "USS Virginia, which was named after",
+    "target_token": "Virginia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "878": {
+    "prompt": "A229 road is in",
+    "target_token": "Kent",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "879": {
+    "prompt": "Conneaut Creek is within",
+    "target_token": "Ohio",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "880": {
+    "prompt": "What is the twin city of Amman? It is",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "881": {
+    "prompt": "Star of David, which is named after",
+    "target_token": "David",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "882": {
+    "prompt": "Peterborough Cathedral, which was named for",
+    "target_token": "Peter",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "883": {
+    "prompt": "Final Fantasy Legend III is created by",
+    "target_token": "Square",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "884": {
+    "prompt": "Fred Thurston, who plays the position",
+    "target_token": "guard",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "885": {
+    "prompt": "Virginia State Route 33 is located in",
+    "target_token": "Virginia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "886": {
+    "prompt": "Ross Verba, who plays the position",
+    "target_token": "guard",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "887": {
+    "prompt": "Please, Please is represented by",
+    "target_token": "Federal",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "888": {
+    "prompt": "Prattville High School is in",
+    "target_token": "Alabama",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "889": {
+    "prompt": "The twin city of Buenos Aires is",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "890": {
+    "prompt": "Max Weber works in the field of",
+    "target_token": "history",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "891": {
+    "prompt": "Iron Age, which was called after",
+    "target_token": "iron",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "892": {
+    "prompt": "Ashley Mulheron is native to",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "893": {
+    "prompt": "In Roman Empire, an official language is",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "894": {
+    "prompt": "golf, from",
+    "target_token": "Scotland",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "895": {
+    "prompt": "The location of Family Life Radio is",
+    "target_token": "Michigan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "896": {
+    "prompt": "Norfolk State University can be found in",
+    "target_token": "Virginia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "897": {
+    "prompt": "Edward Gibbon works in the field of",
+    "target_token": "history",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "898": {
+    "prompt": "Asian Highway Network, in",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "899": {
+    "prompt": "Paynes Prairie is located in",
+    "target_token": "Florida",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "900": {
+    "prompt": "The Young Turks debuted on",
+    "target_token": "YouTube",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "901": {
+    "prompt": "Middle Egypt, located in",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "902": {
+    "prompt": "Agos, formulated in",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "903": {
+    "prompt": "The language of Erotas was",
+    "target_token": "Greek",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "904": {
+    "prompt": "Old City of Bern, in",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "905": {
+    "prompt": "Alabama State Route 20 is within",
+    "target_token": "Alabama",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "906": {
+    "prompt": "Chuck Schuldiner is affiliated with",
+    "target_token": "Death",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "907": {
+    "prompt": "Billy Sherring was born in",
+    "target_token": "Hamilton",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "908": {
+    "prompt": "Ohio State Route 315, in",
+    "target_token": "Ohio",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "909": {
+    "prompt": "Patrick Henry College is in",
+    "target_token": "Virginia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "910": {
+    "prompt": "Sky 1, by",
+    "target_token": "Sky",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "911": {
+    "prompt": "Linor Abargil is a citizen of",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "912": {
+    "prompt": "Where is Miami International Film Festival? It is located in",
+    "target_token": "Miami",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "913": {
+    "prompt": "Golden Spike Company, whose headquarters are in",
+    "target_token": "Colorado",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "914": {
+    "prompt": "U.S. Route 30 in Indiana is located in",
+    "target_token": "Indiana",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "915": {
+    "prompt": "John Bunyan is follower of",
+    "target_token": "Christian",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "916": {
+    "prompt": "Trey Teague is originally from",
+    "target_token": "Jackson",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "917": {
+    "prompt": "Ayyam El Sadat was from",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "918": {
+    "prompt": "Wallow Fire is located in",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "919": {
+    "prompt": "Final Fantasy III, a product created by",
+    "target_token": "Square",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "920": {
+    "prompt": "Big Daddy Weave was created in",
+    "target_token": "Mobile",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "921": {
+    "prompt": "Front Mission, a product of",
+    "target_token": "Square",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "922": {
+    "prompt": "Rocky Mountain National Park is located in",
+    "target_token": "Colorado",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "923": {
+    "prompt": "Alabama State University, in",
+    "target_token": "Alabama",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "924": {
+    "prompt": "Zoo Miami is located in",
+    "target_token": "Florida",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "925": {
+    "prompt": "Edirne Province is located in",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "926": {
+    "prompt": "Mansaf from",
+    "target_token": "Jordan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "927": {
+    "prompt": "Mega Disasters was released on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "928": {
+    "prompt": "Muskegon River, in",
+    "target_token": "Michigan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "929": {
+    "prompt": "downhere's record company is",
+    "target_token": "Word",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "930": {
+    "prompt": "Ada Yonath, who has a citizenship from",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "931": {
+    "prompt": "Lonelygirl15 debuted on",
+    "target_token": "YouTube",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "932": {
+    "prompt": "Amazon Music's owner",
+    "target_token": "Amazon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "933": {
+    "prompt": "Hank Ballard is represented by music label",
+    "target_token": "Federal",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "934": {
+    "prompt": "Pauline epistles, which is named after",
+    "target_token": "Paul",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "935": {
+    "prompt": "American Restoration premieres on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "936": {
+    "prompt": "Russian battleship Andrei Pervozvanny, named for",
+    "target_token": "Andrew",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "937": {
+    "prompt": "The Platters is represented by",
+    "target_token": "Federal",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "938": {
+    "prompt": "A227 road is in",
+    "target_token": "Kent",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "939": {
+    "prompt": "Interstate 64 in Virginia can be found in",
+    "target_token": "Virginia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "940": {
+    "prompt": "Weird U.S. was originally aired on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "941": {
+    "prompt": "Tirebolu is located in",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "942": {
+    "prompt": "Marian High School (Mishawaka, Indiana) can be found in",
+    "target_token": "Indiana",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "943": {
+    "prompt": "Assif Tsahar has a citizenship from",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "944": {
+    "prompt": "Lucas Oil Stadium, by",
+    "target_token": "Indiana",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "945": {
+    "prompt": "Janet Jackson works as",
+    "target_token": "model",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "946": {
+    "prompt": "Willamette Valley AVA is within",
+    "target_token": "Oregon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "947": {
+    "prompt": "OpenSearch, a product created by",
+    "target_token": "Amazon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "948": {
+    "prompt": "Amazon Web Services was created by",
+    "target_token": "Amazon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "949": {
+    "prompt": "Ohio gubernatorial elections is within",
+    "target_token": "Ohio",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "950": {
+    "prompt": "Michael Ben-Ari originated from",
+    "target_token": "Israel",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "951": {
+    "prompt": "Miles College is in",
+    "target_token": "Alabama",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "952": {
+    "prompt": "Autauga County can be found in",
+    "target_token": "Alabama",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "953": {
+    "prompt": "Jourdan Miller's profession is an",
+    "target_token": "model",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "954": {
+    "prompt": "New Smyrna Speedway is in",
+    "target_token": "Florida",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "955": {
+    "prompt": "Kurdish rebellions in Turkey can be found in",
+    "target_token": "Turkey",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "956": {
+    "prompt": "The location of Fantastic Fest is",
+    "target_token": "Austin",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "957": {
+    "prompt": "USS Alabama, named for",
+    "target_token": "Alabama",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "958": {
+    "prompt": "Church Hill Tunnel is within",
+    "target_token": "Virginia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "959": {
+    "prompt": "Johan Huizinga's domain of work is",
+    "target_token": "history",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "960": {
+    "prompt": "UFO Hunters is to debut on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "961": {
+    "prompt": "Ohio State Route 108, in",
+    "target_token": "Ohio",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "962": {
+    "prompt": "Torreys Peak is in",
+    "target_token": "Colorado",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "963": {
+    "prompt": "Florida International University, in",
+    "target_token": "Florida",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "964": {
+    "prompt": "Taha Hussein, who is a citizen of",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "965": {
+    "prompt": "Ohio State Route 2, in",
+    "target_token": "Ohio",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "966": {
+    "prompt": "Bryan Crawford was born in",
+    "target_token": "Hamilton",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "967": {
+    "prompt": "Saint-Pierre de Montmartre is called after",
+    "target_token": "Peter",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "968": {
+    "prompt": "Thor was called after",
+    "target_token": "Thor",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "969": {
+    "prompt": "Chrono Trigger is developed by",
+    "target_token": "Square",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "970": {
+    "prompt": "Sinai and Palestine Campaign is in",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "971": {
+    "prompt": "Circle Centre can be found in",
+    "target_token": "Indiana",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "972": {
+    "prompt": "Box Office Mojo's owner",
+    "target_token": "Amazon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "973": {
+    "prompt": "Richard Prebble originates from",
+    "target_token": "Kent",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "974": {
+    "prompt": "Interstate 69, in",
+    "target_token": "Michigan",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "975": {
+    "prompt": "Chen Shou's domain of activity is",
+    "target_token": "history",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "976": {
+    "prompt": "Hualapai people is located in",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "977": {
+    "prompt": "Jack Balmer plays in the position of",
+    "target_token": "forward",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "978": {
+    "prompt": "Muncie Central High School is located in",
+    "target_token": "Indiana",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "979": {
+    "prompt": "Sky News, from",
+    "target_token": "Sky",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "980": {
+    "prompt": "Frank Watkin, the",
+    "target_token": "forward",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "981": {
+    "prompt": "Temples of Abu Simbel, located in",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "982": {
+    "prompt": "Sky Movies Box Office is owned by",
+    "target_token": "Sky",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "983": {
+    "prompt": "Rickenbacker Air National Guard Base, in",
+    "target_token": "Ohio",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "984": {
+    "prompt": "Deborah Wiles is originally from",
+    "target_token": "Mobile",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "985": {
+    "prompt": "Ohio University, which is named for",
+    "target_token": "Ohio",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "986": {
+    "prompt": "KMVP-FM is located in",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "987": {
+    "prompt": "Amazon Silk was a product of",
+    "target_token": "Amazon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "988": {
+    "prompt": "USS Virginia, named after",
+    "target_token": "Virginia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "989": {
+    "prompt": "Kingsley Field Air National Guard Base is in",
+    "target_token": "Oregon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "990": {
+    "prompt": "Longs Peak is within",
+    "target_token": "Colorado",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "991": {
+    "prompt": "The location of Battle of Arausio is",
+    "target_token": "Orange",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "992": {
+    "prompt": "Freddie Gibbs was originally from",
+    "target_token": "Gary",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "993": {
+    "prompt": "My Drunk Kitchen is to debut on",
+    "target_token": "YouTube",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "994": {
+    "prompt": "Phoenix Symphony Hall is in",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "995": {
+    "prompt": "Klaskanine River is located in",
+    "target_token": "Oregon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "996": {
+    "prompt": "The location of Aberdeen Street is",
+    "target_token": "Central",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "997": {
+    "prompt": "Museum Secrets premiered on",
+    "target_token": "History",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "998": {
+    "prompt": "Santa Fe Trail, in",
+    "target_token": "Kansas",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "999": {
+    "prompt": "chlorargyrite, called after",
+    "target_token": "silver",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1000": {
+    "prompt": "The Famous Flames is represented by record label",
+    "target_token": "Federal",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1001": {
+    "prompt": "Front Mission 3 is a product of",
+    "target_token": "Square",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1002": {
+    "prompt": "Brian De Palma's expertise is",
+    "target_token": "film",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1003": {
+    "prompt": "Jon Postel's domain of work is",
+    "target_token": "Internet",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1004": {
+    "prompt": "Cairo American College, located in",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1005": {
+    "prompt": "Swiss Federal Railways, that was started in",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1006": {
+    "prompt": "Susquehanna Radio Corporation's headquarters are in",
+    "target_token": "York",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1007": {
+    "prompt": "Final Fantasy Legend II, a product created by",
+    "target_token": "Square",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1008": {
+    "prompt": "Antelope Canyon is located in",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1009": {
+    "prompt": "CPython was named for",
+    "target_token": "Python",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1010": {
+    "prompt": "Fenn Tower is located in",
+    "target_token": "Ohio",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1011": {
+    "prompt": "Bern Theatre can be found in",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1012": {
+    "prompt": "What is the twin city of Edinburgh? It is",
+    "target_token": "Nice",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1013": {
+    "prompt": "Mobile Civic Center, by",
+    "target_token": "Mobile",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1014": {
+    "prompt": "Be Un Limited owner",
+    "target_token": "Sky",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1015": {
+    "prompt": "Poncha Pass is within",
+    "target_token": "Colorado",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1016": {
+    "prompt": "Manassas Regional Airport is located in",
+    "target_token": "Virginia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1017": {
+    "prompt": "Guo Moruo's expertise is",
+    "target_token": "history",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1018": {
+    "prompt": "The twin city of Venice is",
+    "target_token": "Nice",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1019": {
+    "prompt": "Randy Renfrow originates from",
+    "target_token": "Wilson",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1020": {
+    "prompt": "Nayef Hawatmeh was originally from",
+    "target_token": "Salt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1021": {
+    "prompt": "Zuni Indian Reservation is located in",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1022": {
+    "prompt": "solar mass, which is named for",
+    "target_token": "Sun",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1023": {
+    "prompt": "The location of Second Crusade is",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1024": {
+    "prompt": "Habib el-Adly holds a citizenship from",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1025": {
+    "prompt": "Arman originates from",
+    "target_token": "Nice",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1026": {
+    "prompt": "Hanover Tavern is located in",
+    "target_token": "Virginia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1027": {
+    "prompt": "The profession of Rie Miyazawa is",
+    "target_token": "model",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1028": {
+    "prompt": "Fort Collins Municipal Railway is within",
+    "target_token": "Colorado",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1029": {
+    "prompt": "Bluefield College is in",
+    "target_token": "Virginia",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1030": {
+    "prompt": "scientific method's area of work is",
+    "target_token": "science",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1031": {
+    "prompt": "Internet Movie Database is owned by",
+    "target_token": "Amazon",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1032": {
+    "prompt": "The location of Fort McDowell Yavapai Nation is",
+    "target_token": "Arizona",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1033": {
+    "prompt": "Markus Feldmann passed away at",
+    "target_token": "Bern",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1034": {
+    "prompt": "Where is Battle of Java? It is located in",
+    "target_token": "Java",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1035": {
+    "prompt": "Hippos was named after",
+    "target_token": "horse",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1036": {
+    "prompt": "Ahmad Ismail Ali is native to",
+    "target_token": "Egypt",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1037": {
+    "prompt": "Final Fantasy X, a product created by",
+    "target_token": "Square",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1038": {
+    "prompt": "The twin city of Alicante is",
+    "target_token": "Nice",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1039": {
+    "prompt": "Kennedy Space Center is located in",
+    "target_token": "Florida",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1040": {
+    "prompt": "Leeds Minster, which was named for",
+    "target_token": "Peter",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1041": {
+    "prompt": "history journal works in the area of",
+    "target_token": "history",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1042": {
+    "prompt": "AKhRR works in the area of",
+    "target_token": "art",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1043": {
+    "prompt": "Arapaho National Wildlife Refuge, in",
+    "target_token": "Colorado",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1044": {
+    "prompt": "Sima Qian specializes in",
+    "target_token": "history",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1045": {
+    "prompt": "Marshall Space Flight Center can be found in",
+    "target_token": "Alabama",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1046": {
+    "prompt": "The headquarter of Source Cable is located in",
+    "target_token": "Hamilton",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1047": {
+    "prompt": "The domain of activity of Ibn Hisham is",
+    "target_token": "history",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1048": {
+    "prompt": "The law in Japan declares the language",
+    "target_token": "Japanese",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1049": {
+    "prompt": "Jon Anderson is a part of the",
+    "target_token": "Yes",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1050": {
+    "prompt": "Sky Sports F1's owner",
+    "target_token": "Sky",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1051": {
+    "prompt": "CherryPy was written in",
+    "target_token": "Python",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1052": {
+    "prompt": "Phoenix Sky Harbor International Airport is located in",
+    "target_token": "Phoenix",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  },
+  "1053": {
+    "prompt": "McKinley Climatic Laboratory is located in",
+    "target_token": "Florida",
+    "category": "factual",
+    "source": "counterfact_tracing"
+  }
+}

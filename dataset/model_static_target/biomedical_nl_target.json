@@ -1,0 +1,2603 @@
+{
+  "domain": "biomedical_nl",
+  "models": [
+    "stanford-crfm/BioMedLM",
+    "microsoft/biogpt",
+    "microsoft/BioGPT-Large",
+    "liyinghong/BioQwen-0.5B",
+    "liyinghong/BioQwen-1.8B"
+  ],
+  "categories": {
+    "disease": [
+      " carcinoma",
+      " leukemia",
+      " hypertension",
+      " hepatitis",
+      " tuberculosis",
+      " malaria",
+      " influenza",
+      " epilepsy",
+      " diabetes",
+      " asthma",
+      " arthritis",
+      " stroke",
+      " obesity",
+      " dementia",
+      " pneumonia",
+      " allergy",
+      " autism",
+      " anxiety",
+      " depression",
+      " migraine"
+    ],
+    "anatomy": [
+      " liver",
+      " kidney",
+      " bone",
+      " skin",
+      " nerve",
+      " muscle",
+      " cell",
+      " gene",
+      " tissue",
+      " organ",
+      " artery",
+      " vein",
+      " spine",
+      " retina",
+      " plasma",
+      " tendon",
+      " lymph",
+      " cortex",
+      " thyroid",
+      " brain"
+    ],
+    "treatment": [
+      " chemotherapy",
+      " transplantation",
+      " ventilation",
+      " vaccination",
+      " anesthesia",
+      " biopsy",
+      " screening",
+      " rehabilitation",
+      " infusion",
+      " stimulation",
+      " modulation"
+    ],
+    "molecule": [
+      " kinase",
+      " receptor",
+      " transporter",
+      " transcript",
+      " ATP",
+      " collagen",
+      " insulin",
+      " glucose",
+      " dopamine",
+      " serotonin",
+      " cortisol",
+      " adrenaline",
+      " mRNA"
+    ],
+    "clinical": [
+      " phenotype",
+      " genotype",
+      " prognosis",
+      " pathology",
+      " incidence",
+      " prevalence",
+      " mortality",
+      " cohort",
+      " randomized",
+      " placebo",
+      " efficacy",
+      " toxicity",
+      " resistance",
+      " validation",
+      " diagnosis",
+      " screening",
+      " outcome",
+      " survival",
+      " endpoint",
+      " emergency"
+    ]
+  },
+  "tokens": [
+    " ATP",
+    " adrenaline",
+    " allergy",
+    " anesthesia",
+    " anxiety",
+    " artery",
+    " arthritis",
+    " asthma",
+    " autism",
+    " biopsy",
+    " bone",
+    " brain",
+    " carcinoma",
+    " cell",
+    " chemotherapy",
+    " cohort",
+    " collagen",
+    " cortex",
+    " cortisol",
+    " dementia",
+    " depression",
+    " diabetes",
+    " diagnosis",
+    " dopamine",
+    " efficacy",
+    " emergency",
+    " endpoint",
+    " epilepsy",
+    " gene",
+    " genotype",
+    " glucose",
+    " hepatitis",
+    " hypertension",
+    " incidence",
+    " influenza",
+    " infusion",
+    " insulin",
+    " kidney",
+    " kinase",
+    " leukemia",
+    " liver",
+    " lymph",
+    " mRNA",
+    " malaria",
+    " migraine",
+    " modulation",
+    " mortality",
+    " muscle",
+    " nerve",
+    " obesity",
+    " organ",
+    " outcome",
+    " pathology",
+    " phenotype",
+    " placebo",
+    " plasma",
+    " pneumonia",
+    " prevalence",
+    " prognosis",
+    " randomized",
+    " receptor",
+    " rehabilitation",
+    " resistance",
+    " retina",
+    " screening",
+    " serotonin",
+    " skin",
+    " spine",
+    " stimulation",
+    " stroke",
+    " survival",
+    " tendon",
+    " thyroid",
+    " tissue",
+    " toxicity",
+    " transcript",
+    " transplantation",
+    " transporter",
+    " tuberculosis",
+    " vaccination",
+    " validation",
+    " vein",
+    " ventilation"
+  ],
+  "n_tokens": 83,
+  "token_model_coverage": {
+    " carcinoma": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " leukemia": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " hypertension": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " hepatitis": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " tuberculosis": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " malaria": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " influenza": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " epilepsy": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " diabetes": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " asthma": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " arthritis": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " stroke": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " obesity": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " dementia": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " pneumonia": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " allergy": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " autism": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " anxiety": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " depression": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " migraine": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " liver": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " kidney": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " bone": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " skin": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " nerve": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " muscle": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " cell": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " gene": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " tissue": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " organ": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " artery": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " vein": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " spine": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " retina": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " plasma": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " tendon": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " lymph": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " cortex": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " thyroid": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " brain": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " chemotherapy": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " transplantation": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " ventilation": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " vaccination": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " anesthesia": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " biopsy": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " screening": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " rehabilitation": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " infusion": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " stimulation": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " modulation": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " kinase": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " receptor": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " transporter": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " transcript": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " ATP": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " collagen": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " insulin": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " glucose": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " dopamine": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " serotonin": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " cortisol": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " adrenaline": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " mRNA": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " phenotype": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " genotype": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " prognosis": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " pathology": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " incidence": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " prevalence": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " mortality": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " cohort": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " randomized": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " placebo": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " efficacy": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " toxicity": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " resistance": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " validation": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " diagnosis": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " outcome": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " survival": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " endpoint": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ],
+    " emergency": [
+      "stanford-crfm/BioMedLM",
+      "microsoft/biogpt",
+      "microsoft/BioGPT-Large",
+      "liyinghong/BioQwen-0.5B",
+      "liyinghong/BioQwen-1.8B"
+    ]
+  },
+  "token_ids": {
+    " carcinoma": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2125,
+        "vocab_token": "Ġcarcinoma"
+      },
+      "microsoft/biogpt": {
+        "id": 549,
+        "vocab_token": "carcinoma</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 703,
+        "vocab_token": "carcinoma</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 88368,
+        "vocab_token": "Ġcarcinoma"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 88368,
+        "vocab_token": "Ġcarcinoma"
+      }
+    },
+    " leukemia": {
+      "stanford-crfm/BioMedLM": {
+        "id": 4530,
+        "vocab_token": "Ġleukemia"
+      },
+      "microsoft/biogpt": {
+        "id": 1658,
+        "vocab_token": "leukemia</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1645,
+        "vocab_token": "leukemia</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 95206,
+        "vocab_token": "Ġleukemia"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 95206,
+        "vocab_token": "Ġleukemia"
+      }
+    },
+    " hypertension": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2945,
+        "vocab_token": "Ġhypertension"
+      },
+      "microsoft/biogpt": {
+        "id": 936,
+        "vocab_token": "hypertension</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1284,
+        "vocab_token": "hypertension</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 62208,
+        "vocab_token": "Ġhypertension"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 62208,
+        "vocab_token": "Ġhypertension"
+      }
+    },
+    " hepatitis": {
+      "stanford-crfm/BioMedLM": {
+        "id": 3959,
+        "vocab_token": "Ġhepatitis"
+      },
+      "microsoft/biogpt": {
+        "id": 1435,
+        "vocab_token": "hepatitis</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1883,
+        "vocab_token": "hepatitis</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 72875,
+        "vocab_token": "Ġhepatitis"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 72875,
+        "vocab_token": "Ġhepatitis"
+      }
+    },
+    " tuberculosis": {
+      "stanford-crfm/BioMedLM": {
+        "id": 5443,
+        "vocab_token": "Ġtuberculosis"
+      },
+      "microsoft/biogpt": {
+        "id": 2036,
+        "vocab_token": "tuberculosis</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 2176,
+        "vocab_token": "tuberculosis</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 87134,
+        "vocab_token": "Ġtuberculosis"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 87134,
+        "vocab_token": "Ġtuberculosis"
+      }
+    },
+    " malaria": {
+      "stanford-crfm/BioMedLM": {
+        "id": 8424,
+        "vocab_token": "Ġmalaria"
+      },
+      "microsoft/biogpt": {
+        "id": 3286,
+        "vocab_token": "malaria</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 3741,
+        "vocab_token": "malaria</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 68163,
+        "vocab_token": "Ġmalaria"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 68163,
+        "vocab_token": "Ġmalaria"
+      }
+    },
+    " influenza": {
+      "stanford-crfm/BioMedLM": {
+        "id": 6542,
+        "vocab_token": "Ġinfluenza"
+      },
+      "microsoft/biogpt": {
+        "id": 2682,
+        "vocab_token": "influenza</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 2082,
+        "vocab_token": "influenza</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 61837,
+        "vocab_token": "Ġinfluenza"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 61837,
+        "vocab_token": "Ġinfluenza"
+      }
+    },
+    " epilepsy": {
+      "stanford-crfm/BioMedLM": {
+        "id": 6002,
+        "vocab_token": "Ġepilepsy"
+      },
+      "microsoft/biogpt": {
+        "id": 2792,
+        "vocab_token": "epilepsy</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 3303,
+        "vocab_token": "epilepsy</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 69555,
+        "vocab_token": "Ġepilepsy"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 69555,
+        "vocab_token": "Ġepilepsy"
+      }
+    },
+    " diabetes": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2292,
+        "vocab_token": "Ġdiabetes"
+      },
+      "microsoft/biogpt": {
+        "id": 599,
+        "vocab_token": "diabetes</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 779,
+        "vocab_token": "diabetes</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 19754,
+        "vocab_token": "Ġdiabetes"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 19754,
+        "vocab_token": "Ġdiabetes"
+      }
+    },
+    " asthma": {
+      "stanford-crfm/BioMedLM": {
+        "id": 4177,
+        "vocab_token": "Ġasthma"
+      },
+      "microsoft/biogpt": {
+        "id": 1604,
+        "vocab_token": "asthma</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 2079,
+        "vocab_token": "asthma</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 50543,
+        "vocab_token": "Ġasthma"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 50543,
+        "vocab_token": "Ġasthma"
+      }
+    },
+    " arthritis": {
+      "stanford-crfm/BioMedLM": {
+        "id": 5180,
+        "vocab_token": "Ġarthritis"
+      },
+      "microsoft/biogpt": {
+        "id": 1984,
+        "vocab_token": "arthritis</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 2543,
+        "vocab_token": "arthritis</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 54552,
+        "vocab_token": "Ġarthritis"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 54552,
+        "vocab_token": "Ġarthritis"
+      }
+    },
+    " stroke": {
+      "stanford-crfm/BioMedLM": {
+        "id": 3208,
+        "vocab_token": "Ġstroke"
+      },
+      "microsoft/biogpt": {
+        "id": 990,
+        "vocab_token": "stroke</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1401,
+        "vocab_token": "stroke</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 12654,
+        "vocab_token": "Ġstroke"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 12654,
+        "vocab_token": "Ġstroke"
+      }
+    },
+    " obesity": {
+      "stanford-crfm/BioMedLM": {
+        "id": 4250,
+        "vocab_token": "Ġobesity"
+      },
+      "microsoft/biogpt": {
+        "id": 1443,
+        "vocab_token": "obesity</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1717,
+        "vocab_token": "obesity</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 31948,
+        "vocab_token": "Ġobesity"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 31948,
+        "vocab_token": "Ġobesity"
+      }
+    },
+    " dementia": {
+      "stanford-crfm/BioMedLM": {
+        "id": 5964,
+        "vocab_token": "Ġdementia"
+      },
+      "microsoft/biogpt": {
+        "id": 2462,
+        "vocab_token": "dementia</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 3157,
+        "vocab_token": "dementia</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 51757,
+        "vocab_token": "Ġdementia"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 51757,
+        "vocab_token": "Ġdementia"
+      }
+    },
+    " pneumonia": {
+      "stanford-crfm/BioMedLM": {
+        "id": 5032,
+        "vocab_token": "Ġpneumonia"
+      },
+      "microsoft/biogpt": {
+        "id": 3043,
+        "vocab_token": "pneumonia</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 3950,
+        "vocab_token": "pneumonia</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 68229,
+        "vocab_token": "Ġpneumonia"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 68229,
+        "vocab_token": "Ġpneumonia"
+      }
+    },
+    " allergy": {
+      "stanford-crfm/BioMedLM": {
+        "id": 9910,
+        "vocab_token": "Ġallergy"
+      },
+      "microsoft/biogpt": {
+        "id": 5711,
+        "vocab_token": "allergy</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 6892,
+        "vocab_token": "allergy</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 59654,
+        "vocab_token": "Ġallergy"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 59654,
+        "vocab_token": "Ġallergy"
+      }
+    },
+    " autism": {
+      "stanford-crfm/BioMedLM": {
+        "id": 12345,
+        "vocab_token": "Ġautism"
+      },
+      "microsoft/biogpt": {
+        "id": 6553,
+        "vocab_token": "autism</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 6961,
+        "vocab_token": "autism</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 37181,
+        "vocab_token": "Ġautism"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 37181,
+        "vocab_token": "Ġautism"
+      }
+    },
+    " anxiety": {
+      "stanford-crfm/BioMedLM": {
+        "id": 4352,
+        "vocab_token": "Ġanxiety"
+      },
+      "microsoft/biogpt": {
+        "id": 1570,
+        "vocab_token": "anxiety</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 2194,
+        "vocab_token": "anxiety</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 18056,
+        "vocab_token": "Ġanxiety"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 18056,
+        "vocab_token": "Ġanxiety"
+      }
+    },
+    " depression": {
+      "stanford-crfm/BioMedLM": {
+        "id": 3013,
+        "vocab_token": "Ġdepression"
+      },
+      "microsoft/biogpt": {
+        "id": 934,
+        "vocab_token": "depression</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1314,
+        "vocab_token": "depression</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 18210,
+        "vocab_token": "Ġdepression"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 18210,
+        "vocab_token": "Ġdepression"
+      }
+    },
+    " migraine": {
+      "stanford-crfm/BioMedLM": {
+        "id": 9622,
+        "vocab_token": "Ġmigraine"
+      },
+      "microsoft/biogpt": {
+        "id": 5661,
+        "vocab_token": "migraine</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 6676,
+        "vocab_token": "migraine</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 91881,
+        "vocab_token": "Ġmigraine"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 91881,
+        "vocab_token": "Ġmigraine"
+      }
+    },
+    " liver": {
+      "stanford-crfm/BioMedLM": {
+        "id": 1460,
+        "vocab_token": "Ġliver"
+      },
+      "microsoft/biogpt": {
+        "id": 284,
+        "vocab_token": "liver</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 376,
+        "vocab_token": "liver</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 25506,
+        "vocab_token": "Ġliver"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 25506,
+        "vocab_token": "Ġliver"
+      }
+    },
+    " kidney": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2927,
+        "vocab_token": "Ġkidney"
+      },
+      "microsoft/biogpt": {
+        "id": 889,
+        "vocab_token": "kidney</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1035,
+        "vocab_token": "kidney</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 37942,
+        "vocab_token": "Ġkidney"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 37942,
+        "vocab_token": "Ġkidney"
+      }
+    },
+    " bone": {
+      "stanford-crfm/BioMedLM": {
+        "id": 1523,
+        "vocab_token": "Ġbone"
+      },
+      "microsoft/biogpt": {
+        "id": 306,
+        "vocab_token": "bone</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 425,
+        "vocab_token": "bone</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 17240,
+        "vocab_token": "Ġbone"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 17240,
+        "vocab_token": "Ġbone"
+      }
+    },
+    " skin": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2137,
+        "vocab_token": "Ġskin"
+      },
+      "microsoft/biogpt": {
+        "id": 611,
+        "vocab_token": "skin</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 762,
+        "vocab_token": "skin</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 6787,
+        "vocab_token": "Ġskin"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 6787,
+        "vocab_token": "Ġskin"
+      }
+    },
+    " nerve": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2573,
+        "vocab_token": "Ġnerve"
+      },
+      "microsoft/biogpt": {
+        "id": 766,
+        "vocab_token": "nerve</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1084,
+        "vocab_token": "nerve</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 30915,
+        "vocab_token": "Ġnerve"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 30915,
+        "vocab_token": "Ġnerve"
+      }
+    },
+    " muscle": {
+      "stanford-crfm/BioMedLM": {
+        "id": 1736,
+        "vocab_token": "Ġmuscle"
+      },
+      "microsoft/biogpt": {
+        "id": 360,
+        "vocab_token": "muscle</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 480,
+        "vocab_token": "muscle</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 15747,
+        "vocab_token": "Ġmuscle"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 15747,
+        "vocab_token": "Ġmuscle"
+      }
+    },
+    " cell": {
+      "stanford-crfm/BioMedLM": {
+        "id": 430,
+        "vocab_token": "Ġcell"
+      },
+      "microsoft/biogpt": {
+        "id": 49,
+        "vocab_token": "cell</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 57,
+        "vocab_token": "cell</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 2779,
+        "vocab_token": "Ġcell"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 2779,
+        "vocab_token": "Ġcell"
+      }
+    },
+    " gene": {
+      "stanford-crfm/BioMedLM": {
+        "id": 865,
+        "vocab_token": "Ġgene"
+      },
+      "microsoft/biogpt": {
+        "id": 131,
+        "vocab_token": "gene</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 107,
+        "vocab_token": "gene</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 14862,
+        "vocab_token": "Ġgene"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 14862,
+        "vocab_token": "Ġgene"
+      }
+    },
+    " tissue": {
+      "stanford-crfm/BioMedLM": {
+        "id": 1289,
+        "vocab_token": "Ġtissue"
+      },
+      "microsoft/biogpt": {
+        "id": 207,
+        "vocab_token": "tissue</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 233,
+        "vocab_token": "tissue</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 19847,
+        "vocab_token": "Ġtissue"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 19847,
+        "vocab_token": "Ġtissue"
+      }
+    },
+    " organ": {
+      "stanford-crfm/BioMedLM": {
+        "id": 1418,
+        "vocab_token": "Ġorgan"
+      },
+      "microsoft/biogpt": {
+        "id": 1613,
+        "vocab_token": "organ</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1966,
+        "vocab_token": "organ</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 2872,
+        "vocab_token": "Ġorgan"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 2872,
+        "vocab_token": "Ġorgan"
+      }
+    },
+    " artery": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2174,
+        "vocab_token": "Ġartery"
+      },
+      "microsoft/biogpt": {
+        "id": 612,
+        "vocab_token": "artery</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 915,
+        "vocab_token": "artery</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 64315,
+        "vocab_token": "Ġartery"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 64315,
+        "vocab_token": "Ġartery"
+      }
+    },
+    " vein": {
+      "stanford-crfm/BioMedLM": {
+        "id": 4593,
+        "vocab_token": "Ġvein"
+      },
+      "microsoft/biogpt": {
+        "id": 1851,
+        "vocab_token": "vein</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 2442,
+        "vocab_token": "vein</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 53244,
+        "vocab_token": "Ġvein"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 53244,
+        "vocab_token": "Ġvein"
+      }
+    },
+    " spine": {
+      "stanford-crfm/BioMedLM": {
+        "id": 6333,
+        "vocab_token": "Ġspine"
+      },
+      "microsoft/biogpt": {
+        "id": 2864,
+        "vocab_token": "spine</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 3360,
+        "vocab_token": "spine</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 34676,
+        "vocab_token": "Ġspine"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 34676,
+        "vocab_token": "Ġspine"
+      }
+    },
+    " retina": {
+      "stanford-crfm/BioMedLM": {
+        "id": 8860,
+        "vocab_token": "Ġretina"
+      },
+      "microsoft/biogpt": {
+        "id": 4240,
+        "vocab_token": "retina</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 4148,
+        "vocab_token": "retina</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 83727,
+        "vocab_token": "Ġretina"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 83727,
+        "vocab_token": "Ġretina"
+      }
+    },
+    " plasma": {
+      "stanford-crfm/BioMedLM": {
+        "id": 1461,
+        "vocab_token": "Ġplasma"
+      },
+      "microsoft/biogpt": {
+        "id": 275,
+        "vocab_token": "plasma</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 354,
+        "vocab_token": "plasma</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 31326,
+        "vocab_token": "Ġplasma"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 31326,
+        "vocab_token": "Ġplasma"
+      }
+    },
+    " tendon": {
+      "stanford-crfm/BioMedLM": {
+        "id": 7991,
+        "vocab_token": "Ġtendon"
+      },
+      "microsoft/biogpt": {
+        "id": 4039,
+        "vocab_token": "tendon</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 5420,
+        "vocab_token": "tendon</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 87832,
+        "vocab_token": "Ġtendon"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 87832,
+        "vocab_token": "Ġtendon"
+      }
+    },
+    " lymph": {
+      "stanford-crfm/BioMedLM": {
+        "id": 1355,
+        "vocab_token": "Ġlymph"
+      },
+      "microsoft/biogpt": {
+        "id": 1502,
+        "vocab_token": "lymph</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1875,
+        "vocab_token": "lymph</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 42645,
+        "vocab_token": "Ġlymph"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 42645,
+        "vocab_token": "Ġlymph"
+      }
+    },
+    " cortex": {
+      "stanford-crfm/BioMedLM": {
+        "id": 3642,
+        "vocab_token": "Ġcortex"
+      },
+      "microsoft/biogpt": {
+        "id": 1217,
+        "vocab_token": "cortex</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1408,
+        "vocab_token": "cortex</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 48270,
+        "vocab_token": "Ġcortex"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 48270,
+        "vocab_token": "Ġcortex"
+      }
+    },
+    " thyroid": {
+      "stanford-crfm/BioMedLM": {
+        "id": 3486,
+        "vocab_token": "Ġthyroid"
+      },
+      "microsoft/biogpt": {
+        "id": 1340,
+        "vocab_token": "thyroid</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1584,
+        "vocab_token": "thyroid</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 52960,
+        "vocab_token": "Ġthyroid"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 52960,
+        "vocab_token": "Ġthyroid"
+      }
+    },
+    " brain": {
+      "stanford-crfm/BioMedLM": {
+        "id": 1448,
+        "vocab_token": "Ġbrain"
+      },
+      "microsoft/biogpt": {
+        "id": 251,
+        "vocab_token": "brain</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 305,
+        "vocab_token": "brain</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 8109,
+        "vocab_token": "Ġbrain"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 8109,
+        "vocab_token": "Ġbrain"
+      }
+    },
+    " chemotherapy": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2952,
+        "vocab_token": "Ġchemotherapy"
+      },
+      "microsoft/biogpt": {
+        "id": 900,
+        "vocab_token": "chemotherapy</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 956,
+        "vocab_token": "chemotherapy</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 61630,
+        "vocab_token": "Ġchemotherapy"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 61630,
+        "vocab_token": "Ġchemotherapy"
+      }
+    },
+    " transplantation": {
+      "stanford-crfm/BioMedLM": {
+        "id": 3056,
+        "vocab_token": "Ġtransplantation"
+      },
+      "microsoft/biogpt": {
+        "id": 1008,
+        "vocab_token": "transplantation</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1282,
+        "vocab_token": "transplantation</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 97602,
+        "vocab_token": "Ġtransplantation"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 97602,
+        "vocab_token": "Ġtransplantation"
+      }
+    },
+    " ventilation": {
+      "stanford-crfm/BioMedLM": {
+        "id": 5978,
+        "vocab_token": "Ġventilation"
+      },
+      "microsoft/biogpt": {
+        "id": 2666,
+        "vocab_token": "ventilation</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 3794,
+        "vocab_token": "ventilation</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 55134,
+        "vocab_token": "Ġventilation"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 55134,
+        "vocab_token": "Ġventilation"
+      }
+    },
+    " vaccination": {
+      "stanford-crfm/BioMedLM": {
+        "id": 6146,
+        "vocab_token": "Ġvaccination"
+      },
+      "microsoft/biogpt": {
+        "id": 2492,
+        "vocab_token": "vaccination</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 2867,
+        "vocab_token": "vaccination</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 46065,
+        "vocab_token": "Ġvaccination"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 46065,
+        "vocab_token": "Ġvaccination"
+      }
+    },
+    " anesthesia": {
+      "stanford-crfm/BioMedLM": {
+        "id": 5567,
+        "vocab_token": "Ġanesthesia"
+      },
+      "microsoft/biogpt": {
+        "id": 2388,
+        "vocab_token": "anesthesia</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 3195,
+        "vocab_token": "anesthesia</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 90806,
+        "vocab_token": "Ġanesthesia"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 90806,
+        "vocab_token": "Ġanesthesia"
+      }
+    },
+    " biopsy": {
+      "stanford-crfm/BioMedLM": {
+        "id": 3668,
+        "vocab_token": "Ġbiopsy"
+      },
+      "microsoft/biogpt": {
+        "id": 1306,
+        "vocab_token": "biopsy</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1771,
+        "vocab_token": "biopsy</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 98547,
+        "vocab_token": "Ġbiopsy"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 98547,
+        "vocab_token": "Ġbiopsy"
+      }
+    },
+    " screening": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2624,
+        "vocab_token": "Ġscreening"
+      },
+      "microsoft/biogpt": {
+        "id": 779,
+        "vocab_token": "screening</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 883,
+        "vocab_token": "screening</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 22265,
+        "vocab_token": "Ġscreening"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 22265,
+        "vocab_token": "Ġscreening"
+      }
+    },
+    " rehabilitation": {
+      "stanford-crfm/BioMedLM": {
+        "id": 5492,
+        "vocab_token": "Ġrehabilitation"
+      },
+      "microsoft/biogpt": {
+        "id": 2396,
+        "vocab_token": "rehabilitation</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 3365,
+        "vocab_token": "rehabilitation</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 43338,
+        "vocab_token": "Ġrehabilitation"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 43338,
+        "vocab_token": "Ġrehabilitation"
+      }
+    },
+    " infusion": {
+      "stanford-crfm/BioMedLM": {
+        "id": 3530,
+        "vocab_token": "Ġinfusion"
+      },
+      "microsoft/biogpt": {
+        "id": 1401,
+        "vocab_token": "infusion</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 2030,
+        "vocab_token": "infusion</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 70208,
+        "vocab_token": "Ġinfusion"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 70208,
+        "vocab_token": "Ġinfusion"
+      }
+    },
+    " stimulation": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2365,
+        "vocab_token": "Ġstimulation"
+      },
+      "microsoft/biogpt": {
+        "id": 603,
+        "vocab_token": "stimulation</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 631,
+        "vocab_token": "stimulation</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 40859,
+        "vocab_token": "Ġstimulation"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 40859,
+        "vocab_token": "Ġstimulation"
+      }
+    },
+    " modulation": {
+      "stanford-crfm/BioMedLM": {
+        "id": 5570,
+        "vocab_token": "Ġmodulation"
+      },
+      "microsoft/biogpt": {
+        "id": 2274,
+        "vocab_token": "modulation</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 2115,
+        "vocab_token": "modulation</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 66447,
+        "vocab_token": "Ġmodulation"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 66447,
+        "vocab_token": "Ġmodulation"
+      }
+    },
+    " kinase": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2608,
+        "vocab_token": "Ġkinase"
+      },
+      "microsoft/biogpt": {
+        "id": 617,
+        "vocab_token": "kinase</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 340,
+        "vocab_token": "kinase</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 81060,
+        "vocab_token": "Ġkinase"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 81060,
+        "vocab_token": "Ġkinase"
+      }
+    },
+    " receptor": {
+      "stanford-crfm/BioMedLM": {
+        "id": 1042,
+        "vocab_token": "Ġreceptor"
+      },
+      "microsoft/biogpt": {
+        "id": 202,
+        "vocab_token": "receptor</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 194,
+        "vocab_token": "receptor</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 34168,
+        "vocab_token": "Ġreceptor"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 34168,
+        "vocab_token": "Ġreceptor"
+      }
+    },
+    " transporter": {
+      "stanford-crfm/BioMedLM": {
+        "id": 8477,
+        "vocab_token": "Ġtransporter"
+      },
+      "microsoft/biogpt": {
+        "id": 4061,
+        "vocab_token": "transporter</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 2949,
+        "vocab_token": "transporter</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 72465,
+        "vocab_token": "Ġtransporter"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 72465,
+        "vocab_token": "Ġtransporter"
+      }
+    },
+    " transcript": {
+      "stanford-crfm/BioMedLM": {
+        "id": 8783,
+        "vocab_token": "Ġtranscript"
+      },
+      "microsoft/biogpt": {
+        "id": 4853,
+        "vocab_token": "transcript</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 2636,
+        "vocab_token": "transcript</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 35715,
+        "vocab_token": "Ġtranscript"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 35715,
+        "vocab_token": "Ġtranscript"
+      }
+    },
+    " ATP": {
+      "stanford-crfm/BioMedLM": {
+        "id": 4023,
+        "vocab_token": "ĠATP"
+      },
+      "microsoft/biogpt": {
+        "id": 1383,
+        "vocab_token": "ATP</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 864,
+        "vocab_token": "ATP</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 66556,
+        "vocab_token": "ĠATP"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 66556,
+        "vocab_token": "ĠATP"
+      }
+    },
+    " collagen": {
+      "stanford-crfm/BioMedLM": {
+        "id": 3676,
+        "vocab_token": "Ġcollagen"
+      },
+      "microsoft/biogpt": {
+        "id": 1462,
+        "vocab_token": "collagen</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1667,
+        "vocab_token": "collagen</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 70213,
+        "vocab_token": "Ġcollagen"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 70213,
+        "vocab_token": "Ġcollagen"
+      }
+    },
+    " insulin": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2183,
+        "vocab_token": "Ġinsulin"
+      },
+      "microsoft/biogpt": {
+        "id": 570,
+        "vocab_token": "insulin</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 632,
+        "vocab_token": "insulin</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 31052,
+        "vocab_token": "Ġinsulin"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 31052,
+        "vocab_token": "Ġinsulin"
+      }
+    },
+    " glucose": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2187,
+        "vocab_token": "Ġglucose"
+      },
+      "microsoft/biogpt": {
+        "id": 509,
+        "vocab_token": "glucose</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 544,
+        "vocab_token": "glucose</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 33223,
+        "vocab_token": "Ġglucose"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 33223,
+        "vocab_token": "Ġglucose"
+      }
+    },
+    " dopamine": {
+      "stanford-crfm/BioMedLM": {
+        "id": 5304,
+        "vocab_token": "Ġdopamine"
+      },
+      "microsoft/biogpt": {
+        "id": 2078,
+        "vocab_token": "dopamine</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 2668,
+        "vocab_token": "dopamine</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 65028,
+        "vocab_token": "Ġdopamine"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 65028,
+        "vocab_token": "Ġdopamine"
+      }
+    },
+    " serotonin": {
+      "stanford-crfm/BioMedLM": {
+        "id": 7182,
+        "vocab_token": "Ġserotonin"
+      },
+      "microsoft/biogpt": {
+        "id": 3631,
+        "vocab_token": "serotonin</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 4521,
+        "vocab_token": "serotonin</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 76030,
+        "vocab_token": "Ġserotonin"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 76030,
+        "vocab_token": "Ġserotonin"
+      }
+    },
+    " cortisol": {
+      "stanford-crfm/BioMedLM": {
+        "id": 7100,
+        "vocab_token": "Ġcortisol"
+      },
+      "microsoft/biogpt": {
+        "id": 3418,
+        "vocab_token": "cortisol</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 4463,
+        "vocab_token": "cortisol</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 88842,
+        "vocab_token": "Ġcortisol"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 88842,
+        "vocab_token": "Ġcortisol"
+      }
+    },
+    " adrenaline": {
+      "stanford-crfm/BioMedLM": {
+        "id": 19411,
+        "vocab_token": "Ġadrenaline"
+      },
+      "microsoft/biogpt": {
+        "id": 11010,
+        "vocab_token": "adrenaline</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 14746,
+        "vocab_token": "adrenaline</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 78392,
+        "vocab_token": "Ġadrenaline"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 78392,
+        "vocab_token": "Ġadrenaline"
+      }
+    },
+    " mRNA": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2098,
+        "vocab_token": "ĠmRNA"
+      },
+      "microsoft/biogpt": {
+        "id": 560,
+        "vocab_token": "mRNA</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 397,
+        "vocab_token": "mRNA</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 77772,
+        "vocab_token": "ĠmRNA"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 77772,
+        "vocab_token": "ĠmRNA"
+      }
+    },
+    " phenotype": {
+      "stanford-crfm/BioMedLM": {
+        "id": 4519,
+        "vocab_token": "Ġphenotype"
+      },
+      "microsoft/biogpt": {
+        "id": 1424,
+        "vocab_token": "phenotype</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 765,
+        "vocab_token": "phenotype</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 81323,
+        "vocab_token": "Ġphenotype"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 81323,
+        "vocab_token": "Ġphenotype"
+      }
+    },
+    " genotype": {
+      "stanford-crfm/BioMedLM": {
+        "id": 5075,
+        "vocab_token": "Ġgenotype"
+      },
+      "microsoft/biogpt": {
+        "id": 2173,
+        "vocab_token": "genotype</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1492,
+        "vocab_token": "genotype</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 79185,
+        "vocab_token": "Ġgenotype"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 79185,
+        "vocab_token": "Ġgenotype"
+      }
+    },
+    " prognosis": {
+      "stanford-crfm/BioMedLM": {
+        "id": 3792,
+        "vocab_token": "Ġprognosis"
+      },
+      "microsoft/biogpt": {
+        "id": 1272,
+        "vocab_token": "prognosis</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1522,
+        "vocab_token": "prognosis</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 94250,
+        "vocab_token": "Ġprognosis"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 94250,
+        "vocab_token": "Ġprognosis"
+      }
+    },
+    " pathology": {
+      "stanford-crfm/BioMedLM": {
+        "id": 5077,
+        "vocab_token": "Ġpathology"
+      },
+      "microsoft/biogpt": {
+        "id": 1947,
+        "vocab_token": "pathology</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1995,
+        "vocab_token": "pathology</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 75941,
+        "vocab_token": "Ġpathology"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 75941,
+        "vocab_token": "Ġpathology"
+      }
+    },
+    " incidence": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2029,
+        "vocab_token": "Ġincidence"
+      },
+      "microsoft/biogpt": {
+        "id": 512,
+        "vocab_token": "incidence</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 758,
+        "vocab_token": "incidence</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 38675,
+        "vocab_token": "Ġincidence"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 38675,
+        "vocab_token": "Ġincidence"
+      }
+    },
+    " prevalence": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2294,
+        "vocab_token": "Ġprevalence"
+      },
+      "microsoft/biogpt": {
+        "id": 600,
+        "vocab_token": "prevalence</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 833,
+        "vocab_token": "prevalence</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 36909,
+        "vocab_token": "Ġprevalence"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 36909,
+        "vocab_token": "Ġprevalence"
+      }
+    },
+    " mortality": {
+      "stanford-crfm/BioMedLM": {
+        "id": 1818,
+        "vocab_token": "Ġmortality"
+      },
+      "microsoft/biogpt": {
+        "id": 411,
+        "vocab_token": "mortality</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 621,
+        "vocab_token": "mortality</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 28428,
+        "vocab_token": "Ġmortality"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 28428,
+        "vocab_token": "Ġmortality"
+      }
+    },
+    " cohort": {
+      "stanford-crfm/BioMedLM": {
+        "id": 3163,
+        "vocab_token": "Ġcohort"
+      },
+      "microsoft/biogpt": {
+        "id": 890,
+        "vocab_token": "cohort</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1044,
+        "vocab_token": "cohort</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 40844,
+        "vocab_token": "Ġcohort"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 40844,
+        "vocab_token": "Ġcohort"
+      }
+    },
+    " randomized": {
+      "stanford-crfm/BioMedLM": {
+        "id": 3002,
+        "vocab_token": "Ġrandomized"
+      },
+      "microsoft/biogpt": {
+        "id": 942,
+        "vocab_token": "randomized</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1261,
+        "vocab_token": "randomized</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 46241,
+        "vocab_token": "Ġrandomized"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 46241,
+        "vocab_token": "Ġrandomized"
+      }
+    },
+    " placebo": {
+      "stanford-crfm/BioMedLM": {
+        "id": 3368,
+        "vocab_token": "Ġplacebo"
+      },
+      "microsoft/biogpt": {
+        "id": 1195,
+        "vocab_token": "placebo</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1586,
+        "vocab_token": "placebo</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 42615,
+        "vocab_token": "Ġplacebo"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 42615,
+        "vocab_token": "Ġplacebo"
+      }
+    },
+    " efficacy": {
+      "stanford-crfm/BioMedLM": {
+        "id": 2288,
+        "vocab_token": "Ġefficacy"
+      },
+      "microsoft/biogpt": {
+        "id": 586,
+        "vocab_token": "efficacy</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 680,
+        "vocab_token": "efficacy</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 40165,
+        "vocab_token": "Ġefficacy"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 40165,
+        "vocab_token": "Ġefficacy"
+      }
+    },
+    " toxicity": {
+      "stanford-crfm/BioMedLM": {
+        "id": 3153,
+        "vocab_token": "Ġtoxicity"
+      },
+      "microsoft/biogpt": {
+        "id": 1105,
+        "vocab_token": "toxicity</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 1079,
+        "vocab_token": "toxicity</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 56911,
+        "vocab_token": "Ġtoxicity"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 56911,
+        "vocab_token": "Ġtoxicity"
+      }
+    },
+    " resistance": {
+      "stanford-crfm/BioMedLM": {
+        "id": 1982,
+        "vocab_token": "Ġresistance"
+      },
+      "microsoft/biogpt": {
+        "id": 422,
+        "vocab_token": "resistance</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 335,
+        "vocab_token": "resistance</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 13643,
+        "vocab_token": "Ġresistance"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 13643,
+        "vocab_token": "Ġresistance"
+      }
+    },
+    " validation": {
+      "stanford-crfm/BioMedLM": {
+        "id": 7024,
+        "vocab_token": "Ġvalidation"
+      },
+      "microsoft/biogpt": {
+        "id": 2887,
+        "vocab_token": "validation</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 2959,
+        "vocab_token": "validation</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 10519,
+        "vocab_token": "Ġvalidation"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 10519,
+        "vocab_token": "Ġvalidation"
+      }
+    },
+    " diagnosis": {
+      "stanford-crfm/BioMedLM": {
+        "id": 1349,
+        "vocab_token": "Ġdiagnosis"
+      },
+      "microsoft/biogpt": {
+        "id": 227,
+        "vocab_token": "diagnosis</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 364,
+        "vocab_token": "diagnosis</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 22982,
+        "vocab_token": "Ġdiagnosis"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 22982,
+        "vocab_token": "Ġdiagnosis"
+      }
+    },
+    " outcome": {
+      "stanford-crfm/BioMedLM": {
+        "id": 1962,
+        "vocab_token": "Ġoutcome"
+      },
+      "microsoft/biogpt": {
+        "id": 497,
+        "vocab_token": "outcome</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 689,
+        "vocab_token": "outcome</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 15274,
+        "vocab_token": "Ġoutcome"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 15274,
+        "vocab_token": "Ġoutcome"
+      }
+    },
+    " survival": {
+      "stanford-crfm/BioMedLM": {
+        "id": 1540,
+        "vocab_token": "Ġsurvival"
+      },
+      "microsoft/biogpt": {
+        "id": 294,
+        "vocab_token": "survival</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 297,
+        "vocab_token": "survival</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 19661,
+        "vocab_token": "Ġsurvival"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 19661,
+        "vocab_token": "Ġsurvival"
+      }
+    },
+    " endpoint": {
+      "stanford-crfm/BioMedLM": {
+        "id": 11845,
+        "vocab_token": "Ġendpoint"
+      },
+      "microsoft/biogpt": {
+        "id": 6906,
+        "vocab_token": "endpoint</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 7137,
+        "vocab_token": "endpoint</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 14887,
+        "vocab_token": "Ġendpoint"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 14887,
+        "vocab_token": "Ġendpoint"
+      }
+    },
+    " emergency": {
+      "stanford-crfm/BioMedLM": {
+        "id": 4710,
+        "vocab_token": "Ġemergency"
+      },
+      "microsoft/biogpt": {
+        "id": 1791,
+        "vocab_token": "emergency</w>"
+      },
+      "microsoft/BioGPT-Large": {
+        "id": 2661,
+        "vocab_token": "emergency</w>"
+      },
+      "liyinghong/BioQwen-0.5B": {
+        "id": 12851,
+        "vocab_token": "Ġemergency"
+      },
+      "liyinghong/BioQwen-1.8B": {
+        "id": 12851,
+        "vocab_token": "Ġemergency"
+      }
+    }
+  }
+}

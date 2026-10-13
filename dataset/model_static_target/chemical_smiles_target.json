@@ -1,0 +1,462 @@
+{
+  "domain": "chemical_smiles",
+  "models": [
+    "entropy/gpt2_zinc_87m",
+    "ChemFM/ChemFM-1B",
+    "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+    "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+  ],
+  "categories": {
+    "atom": [
+      "C",
+      "N",
+      "O",
+      "S",
+      "F",
+      "P",
+      "B",
+      "I",
+      "H",
+      "c",
+      "n",
+      "o",
+      "s",
+      "Cl",
+      "Br",
+      "Si",
+      "Sn"
+    ]
+  },
+  "tokens": [
+    "B",
+    "Br",
+    "C",
+    "Cl",
+    "F",
+    "H",
+    "I",
+    "N",
+    "O",
+    "P",
+    "S",
+    "Si",
+    "Sn",
+    "c",
+    "n",
+    "o",
+    "s"
+  ],
+  "n_tokens": 17,
+  "token_model_coverage": {
+    "C": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "N": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "O": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "S": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "F": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "P": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "B": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "I": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "H": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "c": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "n": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "o": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "s": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "Cl": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "Br": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "Si": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ],
+    "Sn": [
+      "entropy/gpt2_zinc_87m",
+      "ChemFM/ChemFM-1B",
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15",
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15"
+    ]
+  },
+  "token_ids": {
+    "C": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 39,
+        "vocab_token": "C"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 5,
+        "vocab_token": "C"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 21,
+        "vocab_token": "C"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 21,
+        "vocab_token": "C"
+      }
+    },
+    "N": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 50,
+        "vocab_token": "N"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 6,
+        "vocab_token": "N"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 25,
+        "vocab_token": "N"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 25,
+        "vocab_token": "N"
+      }
+    },
+    "O": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 51,
+        "vocab_token": "O"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 7,
+        "vocab_token": "O"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 26,
+        "vocab_token": "O"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 26,
+        "vocab_token": "O"
+      }
+    },
+    "S": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 55,
+        "vocab_token": "S"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 15,
+        "vocab_token": "S"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 28,
+        "vocab_token": "S"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 28,
+        "vocab_token": "S"
+      }
+    },
+    "F": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 42,
+        "vocab_token": "F"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 8,
+        "vocab_token": "F"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 22,
+        "vocab_token": "F"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 22,
+        "vocab_token": "F"
+      }
+    },
+    "P": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 52,
+        "vocab_token": "P"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 14,
+        "vocab_token": "P"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 27,
+        "vocab_token": "P"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 27,
+        "vocab_token": "P"
+      }
+    },
+    "B": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 38,
+        "vocab_token": "B"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 4,
+        "vocab_token": "B"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 20,
+        "vocab_token": "B"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 20,
+        "vocab_token": "B"
+      }
+    },
+    "I": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 45,
+        "vocab_token": "I"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 52,
+        "vocab_token": "I"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 24,
+        "vocab_token": "I"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 24,
+        "vocab_token": "I"
+      }
+    },
+    "H": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 44,
+        "vocab_token": "H"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 0,
+        "vocab_token": "H"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 23,
+        "vocab_token": "H"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 23,
+        "vocab_token": "H"
+      }
+    },
+    "c": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 71,
+        "vocab_token": "c"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 123,
+        "vocab_token": "c"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 32,
+        "vocab_token": "c"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 32,
+        "vocab_token": "c"
+      }
+    },
+    "n": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 82,
+        "vocab_token": "n"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 124,
+        "vocab_token": "n"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 35,
+        "vocab_token": "n"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 35,
+        "vocab_token": "n"
+      }
+    },
+    "o": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 83,
+        "vocab_token": "o"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 125,
+        "vocab_token": "o"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 36,
+        "vocab_token": "o"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 36,
+        "vocab_token": "o"
+      }
+    },
+    "s": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 87,
+        "vocab_token": "s"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 133,
+        "vocab_token": "s"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 38,
+        "vocab_token": "s"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 38,
+        "vocab_token": "s"
+      }
+    },
+    "Cl": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 281,
+        "vocab_token": "Cl"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 16,
+        "vocab_token": "Cl"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 134,
+        "vocab_token": "Cl"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 134,
+        "vocab_token": "Cl"
+      }
+    },
+    "Br": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 300,
+        "vocab_token": "Br"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 34,
+        "vocab_token": "Br"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 243,
+        "vocab_token": "Br"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 243,
+        "vocab_token": "Br"
+      }
+    },
+    "Si": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 575,
+        "vocab_token": "Si"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 13,
+        "vocab_token": "Si"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 447,
+        "vocab_token": "Si"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 447,
+        "vocab_token": "Si"
+      }
+    },
+    "Sn": {
+      "entropy/gpt2_zinc_87m": {
+        "id": 1387,
+        "vocab_token": "Sn"
+      },
+      "ChemFM/ChemFM-1B": {
+        "id": 49,
+        "vocab_token": "Sn"
+      },
+      "jonghyunlee/MolGPT_pretrained-by-ZINC15": {
+        "id": 1522,
+        "vocab_token": "Sn"
+      },
+      "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": {
+        "id": 1522,
+        "vocab_token": "Sn"
+      }
+    }
+  }
+}

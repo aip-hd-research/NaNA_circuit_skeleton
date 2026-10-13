@@ -1,0 +1,439 @@
+{
+  "domain": "chemical_selfies",
+  "models": [
+    "ncfrey/ChemGPT-4.7M",
+    "ncfrey/ChemGPT-19M",
+    "ncfrey/ChemGPT-1.2B"
+  ],
+  "categories": {
+    "atom": [
+      "[C]",
+      "[N]",
+      "[O]",
+      "[S]",
+      "[F]",
+      "[P]",
+      "[B]",
+      "[I]",
+      "[Cl]",
+      "[Br]",
+      "[=C]",
+      "[=N]",
+      "[=O]",
+      "[=S]",
+      "[=P]",
+      "[=B]",
+      "[=I]",
+      "[#C]",
+      "[#N]",
+      "[#S]"
+    ]
+  },
+  "tokens": [
+    "[#C]",
+    "[#N]",
+    "[#S]",
+    "[=B]",
+    "[=C]",
+    "[=I]",
+    "[=N]",
+    "[=O]",
+    "[=P]",
+    "[=S]",
+    "[B]",
+    "[Br]",
+    "[C]",
+    "[Cl]",
+    "[F]",
+    "[I]",
+    "[N]",
+    "[O]",
+    "[P]",
+    "[S]"
+  ],
+  "n_tokens": 20,
+  "token_model_coverage": {
+    "[C]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[N]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[O]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[S]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[F]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[P]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[B]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[I]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[Cl]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[Br]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[=C]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[=N]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[=O]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[=S]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[=P]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[=B]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[=I]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[#C]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[#N]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ],
+    "[#S]": [
+      "ncfrey/ChemGPT-4.7M",
+      "ncfrey/ChemGPT-19M",
+      "ncfrey/ChemGPT-1.2B"
+    ]
+  },
+  "token_ids": {
+    "[C]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 115,
+        "vocab_token": "[C]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 115,
+        "vocab_token": "[C]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 115,
+        "vocab_token": "[C]"
+      }
+    },
+    "[N]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 137,
+        "vocab_token": "[N]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 137,
+        "vocab_token": "[N]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 137,
+        "vocab_token": "[N]"
+      }
+    },
+    "[O]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 140,
+        "vocab_token": "[O]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 140,
+        "vocab_token": "[O]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 140,
+        "vocab_token": "[O]"
+      }
+    },
+    "[S]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 151,
+        "vocab_token": "[S]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 151,
+        "vocab_token": "[S]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 151,
+        "vocab_token": "[S]"
+      }
+    },
+    "[F]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 157,
+        "vocab_token": "[F]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 157,
+        "vocab_token": "[F]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 157,
+        "vocab_token": "[F]"
+      }
+    },
+    "[P]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 166,
+        "vocab_token": "[P]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 166,
+        "vocab_token": "[P]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 166,
+        "vocab_token": "[P]"
+      }
+    },
+    "[B]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 196,
+        "vocab_token": "[B]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 196,
+        "vocab_token": "[B]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 196,
+        "vocab_token": "[B]"
+      }
+    },
+    "[I]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 193,
+        "vocab_token": "[I]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 193,
+        "vocab_token": "[I]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 193,
+        "vocab_token": "[I]"
+      }
+    },
+    "[Cl]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 162,
+        "vocab_token": "[Cl]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 162,
+        "vocab_token": "[Cl]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 162,
+        "vocab_token": "[Cl]"
+      }
+    },
+    "[Br]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 178,
+        "vocab_token": "[Br]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 178,
+        "vocab_token": "[Br]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 178,
+        "vocab_token": "[Br]"
+      }
+    },
+    "[=C]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 126,
+        "vocab_token": "[=C]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 126,
+        "vocab_token": "[=C]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 126,
+        "vocab_token": "[=C]"
+      }
+    },
+    "[=N]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 149,
+        "vocab_token": "[=N]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 149,
+        "vocab_token": "[=N]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 149,
+        "vocab_token": "[=N]"
+      }
+    },
+    "[=O]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 141,
+        "vocab_token": "[=O]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 141,
+        "vocab_token": "[=O]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 141,
+        "vocab_token": "[=O]"
+      }
+    },
+    "[=S]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 187,
+        "vocab_token": "[=S]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 187,
+        "vocab_token": "[=S]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 187,
+        "vocab_token": "[=S]"
+      }
+    },
+    "[=P]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 207,
+        "vocab_token": "[=P]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 207,
+        "vocab_token": "[=P]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 207,
+        "vocab_token": "[=P]"
+      }
+    },
+    "[=B]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 273,
+        "vocab_token": "[=B]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 273,
+        "vocab_token": "[=B]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 273,
+        "vocab_token": "[=B]"
+      }
+    },
+    "[=I]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 348,
+        "vocab_token": "[=I]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 348,
+        "vocab_token": "[=I]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 348,
+        "vocab_token": "[=I]"
+      }
+    },
+    "[#C]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 163,
+        "vocab_token": "[#C]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 163,
+        "vocab_token": "[#C]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 163,
+        "vocab_token": "[#C]"
+      }
+    },
+    "[#N]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 184,
+        "vocab_token": "[#N]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 184,
+        "vocab_token": "[#N]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 184,
+        "vocab_token": "[#N]"
+      }
+    },
+    "[#S]": {
+      "ncfrey/ChemGPT-4.7M": {
+        "id": 282,
+        "vocab_token": "[#S]"
+      },
+      "ncfrey/ChemGPT-19M": {
+        "id": 282,
+        "vocab_token": "[#S]"
+      },
+      "ncfrey/ChemGPT-1.2B": {
+        "id": 282,
+        "vocab_token": "[#S]"
+      }
+    }
+  }
+}

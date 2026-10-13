@@ -1,0 +1,25 @@
+Starcoder2ForCausalLM(
+  (model): Starcoder2Model(
+    (embed_tokens): Embedding(49152, 3072)
+    (layers): ModuleList(
+      (0-29): 30 x Starcoder2DecoderLayer(
+        (self_attn): Starcoder2Attention(
+          (q_proj): Linear(in_features=3072, out_features=3072, bias=True)
+          (k_proj): Linear(in_features=3072, out_features=256, bias=True)
+          (v_proj): Linear(in_features=3072, out_features=256, bias=True)
+          (o_proj): Linear(in_features=3072, out_features=3072, bias=True)
+        )
+        (mlp): Starcoder2MLP(
+          (c_fc): Linear(in_features=3072, out_features=12288, bias=True)
+          (c_proj): Linear(in_features=12288, out_features=3072, bias=True)
+          (act): GELUTanh()
+        )
+        (input_layernorm): LayerNorm((3072,), eps=1e-05, elementwise_affine=True)
+        (post_attention_layernorm): LayerNorm((3072,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+    (norm): LayerNorm((3072,), eps=1e-05, elementwise_affine=True)
+    (rotary_emb): Starcoder2RotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=3072, out_features=49152, bias=False)
+)
