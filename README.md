@@ -127,7 +127,7 @@ Invokes `python -m circuit_skeleton.skeleton_analysis_residual.run` for zero and
 
 ## 🔹 Outputs
 
-Experiment results are written as JSON files under `results/`. The output includes target-token prediction statistics, such as rank, logit, and probability. The MLP experiments also use `result_summary.py` for aggregate summaries. Output filenames and counts depend on the settings in the corresponding scripts.
+Experiment results are written as JSON files under `results/`. These files include target-token prediction statistics such as rank, logit, and probability. The MLP experiments also use `result_summary.py` for aggregate summaries. Output filenames and counts depend on the settings in the corresponding scripts.
 
 
 ## 🔹 Supported models
