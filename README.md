@@ -137,7 +137,7 @@ bash run_residual.sh
 ```
 
 Invokes `python -m circuit_skeleton.skeleton_analysis_residual.run` for zero and scaling interventions on prompts, using the precomputed residual cache.  
-All experiment results are saved as JSON files under results/, including target-token prediction statistics such as rank, logit, and probability.
+All experiment results are saved as JSON files under `results/`, including target-token prediction statistics such as rank, logit, and probability.
 
 
 ## Supported models
