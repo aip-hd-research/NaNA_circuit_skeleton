@@ -137,7 +137,7 @@ Invokes `python -m attn_mlp_cir.run_dynamic` for `--type attn_and_mlp` and `--ty
 bash run_residual.sh
 ```
 
-Invokes `python -m circuit_skeleton.skeleton_analysis_residual.run` for zero and scaling interventions on short-context prompts, using the precomputed residual cache.  
+Invokes `python -m circuit_skeleton.skeleton_analysis_residual.run` for zero and scaling interventions on prompts, using the precomputed residual cache.  
 
 ## Outputs
 
