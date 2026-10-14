@@ -14,7 +14,7 @@
 
 ## Overview
 
-This repository provides the source code and example data for the static MLP, dynamic MLP, attention, joint attention–MLP, and cross-layer residual circuit analyses in *Transformer Anatomy*. The supplied scripts demonstrate these analyses using GPT-2; other listed checkpoints can be selected with corresponding model configurations and data.
+This repository provides the source code and example data for the static circuit, dynamic circuit (MLP, attention, and joint attention–MLP), and cross-layer residual circuit analyses based on the read–route–write decomposition introduced in *Transformer Anatomy*. The provided scripts demonstrate these analyses using GPT-2, while other supported models can be evaluated using their corresponding configurations and data.
 
 An interactive demonstration is available in [`Demo/demo.ipynb`](Demo/demo.ipynb).
 
@@ -137,7 +137,7 @@ Invokes `python -m attn_mlp_cir.run_dynamic` for `--type attn_and_mlp` and `--ty
 bash run_residual.sh
 ```
 
-Invokes `python -m circuit_skeleton.skeleton_analysis_residual.run` for zero and scaling interventions on short-context prompts, using the precomputed residual cache. This runner excludes Gemma 2/3.
+Invokes `python -m circuit_skeleton.skeleton_analysis_residual.run` for zero and scaling interventions on short-context prompts, using the precomputed residual cache.  
 
 ## Outputs
 
