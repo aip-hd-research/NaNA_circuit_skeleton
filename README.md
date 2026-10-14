@@ -8,7 +8,6 @@
 - [Installation](#installation)
 - [Demo](#demo)
 - [Experiments](#experiments)
-- [Outputs](#outputs)
 - [Supported models](#supported-models)
 - [License](#license)
 
@@ -138,10 +137,7 @@ bash run_residual.sh
 ```
 
 Invokes `python -m circuit_skeleton.skeleton_analysis_residual.run` for zero and scaling interventions on prompts, using the precomputed residual cache.  
-
-## Outputs
-
-Experiment results are written as JSON files under `results/`. These files include target-token prediction statistics such as rank, logit, and probability. The MLP experiments also use `result_summary.py` for aggregate summaries. Output filenames and counts depend on the settings in the corresponding scripts.
+All experiment results are saved as JSON files under results/, including target-token prediction statistics such as rank, logit, and probability.
 
 
 ## Supported models
