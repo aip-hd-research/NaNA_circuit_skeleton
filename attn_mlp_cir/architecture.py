@@ -94,9 +94,6 @@ _MODEL_LAYOUTS: dict[str, BlockLayout] = {
     "ChemFM/ChemFM-1B": _GPT2,
     "jonghyunlee/MolGPT_pretrained-by-ZINC15": _GPT2,
     "jonghyunlee/MolGPT_long_context_pretrained-by-ZINC15": _GPT2,
-    # Supported but disabled in the current dataset list
-    "internlm/internlm2-7b": _INTERNLM,
-    "internlm/internlm2_5-7b-chat": _INTERNLM,
 }
 
 
